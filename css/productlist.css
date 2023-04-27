@@ -256,3 +256,65 @@ body{
     }
 
 }
+
+@media screen and (max-width: 1440px){
+
+    .menul{
+        width: 45%;
+        margin: 0 0 0 7.5%;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+
+    .marker{
+        width: 65%;
+        height: 0.3vh;
+        background: #e2bb04;
+        margin: 0 auto;
+    }
+
+    .list{
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 5% 0 0 13%;
+    }
+
+    .productCagetories{
+        width: 100%;
+        height: 225vh;
+        margin: 4% 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .indicatorName{
+        width: 100%;
+        height: 4.7vh;
+        border-top: 1px solid var(--maincolor);
+        border-left: 1px solid var(--maincolor);
+        border-right: 1px solid var(--maincolor);
+        padding: 4px 0 4px 13px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        box-shadow: -1px 2px 11px rgb(97, 97, 97);
+    }
+
+    .indicatorName a{
+        font-size: 17px;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--black);
+        transition:all 0.1s ease;
+    }
+}
