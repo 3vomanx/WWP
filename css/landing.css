@@ -245,15 +245,15 @@ body{
 @media screen and (max-width: 1280px){
 
     .menul{
-        width: 45%;
-        margin: 0 0 0 10.5%;
+        width: 50%;
+        margin: 0 0 0 10%;
     }
 
     .menul ul a{
         text-decoration: none;
         color: #fff;
         transition: all 0.2s ease;
-        font-size: 1.3vw;
+        font-size: 1.4vw;
         font-weight: 700;
     }
 
@@ -285,5 +285,6 @@ body{
         font-size: 25px;
         font-weight: 500;
         border-radius: 10px;
+        text-align: center;
     }
 }
