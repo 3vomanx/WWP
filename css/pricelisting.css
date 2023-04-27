@@ -243,7 +243,7 @@ td, th {
     
     .menul{
         width: 40%;
-        margin: 0 0 0 4%;
+        margin: 0 0 0 5%;
     }
     
     .menul ul a{
@@ -270,7 +270,7 @@ td, th {
     .areatitle{
         width: 70%;
         height: 7vh;
-        margin: 8.5% 0 0 0;
+        margin: 8% 0 0 0;
     }
 
 }
