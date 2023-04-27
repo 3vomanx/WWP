@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --headeryellow: #FFCA08;
+    --headermenu: #221F21;
+    --black: #000000;
+}
+
+.headerbar{
+    width: 100%;
+    height: 9.5vh;
+    background: #fe5f0a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 5px 2px 35px black;
+    position: relative;
+}
+
+.logospace{
+    width: 15%;
+    background: 8vh;
+    margin: 0 0 0 2%;
+}
+
+.logospace a{
+    font-size: 28px;
+    text-decoration: none;
+    color:#c5c4c4;
+    text-shadow: 2px 2px 10px black;
+    font-family: 'Ultra', serif;
+    font-weight: 100;
+}
+
+.menul{
+    width: 40%;
+    margin: 0 0 0 1%;
+}
+
+.menul ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+}
+
+.menul ul a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease;
+    font-size: 1vw;
+    font-weight: 550;
+}
+
+.menul ul a:hover{
+    color: var(--headeryellow)
+}
+
+.marker{
+    width: 65%;
+    height: 0.3vh;
+    background: #e2bb04;
+    margin: 0 auto;
+}
+
+.menul .selected{
+    color: var(--headeryellow);
+}
