@@ -1,3 +1,7 @@
+$(window).scroll(function(){
+    $('.headerbar').toggleClass('scrolled', $(this).scrollTop() > 60)
+});
+
 var id = localStorage.getItem("ClickedId");
 var beerdb = [
     'Norway', '3.63$' , '1',

@@ -1,3 +1,7 @@
+$(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 60)
+});
+
 $(document).ready(function(){
     $(".alcobeve").click(function(){
         $(".ab").slideToggle()
