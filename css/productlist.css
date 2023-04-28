@@ -180,10 +180,15 @@ body{
         background: 8vh;
         margin: 0 0 0 2%;
     }
+
+    .logospace img{
+        width: 30%;
+        height: auto;
+    }
     
     .menul{
-        width: 40%;
-        margin: 0 0 0 5%;
+        width: 55%;
+        margin: 0 0 0 -2%;
     }
     
     .menul ul a{
@@ -268,9 +273,20 @@ body{
 
 @media screen and (max-width: 1440px){
 
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 40%;
+        height: auto;
+    }
+    
     .menul{
         width: 55%;
-        margin: 0 0 0 7.5%;
+        margin: 0 0 0 0;
     }
 
     .menul ul a{
@@ -330,9 +346,20 @@ body{
 
 @media screen and (max-width: 1280px){
 
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 45%;
+        height: auto;
+    }
+    
     .menul{
-        width: 50%;
-        margin: 0 0 0 10%;
+        width: 60%;
+        margin: 0 0 0 1%;
     }
 
     .menul ul a{
@@ -379,18 +406,24 @@ body{
 
 @media screen and (max-width: 1024px){
 
-    .logospace{
-        width: 15%;
-        margin: 0 0 0 2%;
-    }
-    
     .logospace a{
         font-size: 2.1vw;
     }
 
-    .menul{
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
         width: 55%;
-        margin: 0 0 0 9%;
+        height: auto;
+    }
+    
+    .menul{
+        width: 65%;
+        margin: 0 0 0 1%;
     }
 
     .menul ul a{
@@ -413,19 +446,25 @@ body{
 
     .logospace{
         width: 15%;
-        margin: 0 0 0 2%;
+        margin: 0 0 0 6%;
     }
     
     .logospace a{
         font-size: 2.5vw;
     }
 
+    .logospace img{
+        width: 70%;
+        height: auto;
+    }
+
     .menul{
         width: 65%;
         margin: 0 0 0 13%;
+        display: none;
     }
 
-    .menul ul a{
+    .menul ul li{
         text-decoration: none;
         color: #fff;
         transition: all 0.2s ease;
@@ -440,5 +479,76 @@ body{
         flex-direction: column;
         justify-content: space-between;
         margin: 5% 0 0 8%;
+    }
+
+    .sidepanelbtn{
+        margin:0 0 0 70%;
+        transition: all 0.5s ease;
+    }
+    
+    .sidepanelbtn .main{
+        color: white;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    
+    .sidepanelbtn .main:hover{
+        color: var(--headeryellow);
+    }
+    
+    .sidePanel{
+        width: 30%;
+        height: 190.4vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(100%, 0%);
+        transition: 0.5s;
+
+    }
+
+    .sidepushed{
+        width: 30%;
+        height: 190.4vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(0%, 0%);
+        transition: 0.5s;
+    }
+
+    .sidebtnpushed{
+        margin:0 0 0 50%;
+    }
+    
+    .sidePanel ul{
+        height: 20vh;
+        list-style:none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30% 0 0 5%;
+    }
+    
+    .sidePanel ul li a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0 0 4%;
+        font-size: 2.1vw;
+        transition: all 0.2s ease;
+        font-weight: 500;
+    }
+    
+    .sidePanel ul li a:hover{
+        color: var(--headeryellow);
+    }
+    
+    nav{
+        width: 100%;
+        margin: -20% 0 0 0;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

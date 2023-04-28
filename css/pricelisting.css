@@ -250,10 +250,15 @@ td, th {
         background: 8vh;
         margin: 0 0 0 2%;
     }
+
+    .logospace img{
+        width: 30%;
+        height: auto;
+    }
     
     .menul{
-        width: 40%;
-        margin: 0 0 0 5%;
+        width: 55%;
+        margin: 0 0 0 -2%;
     }
     
     .menul ul a{
@@ -297,9 +302,20 @@ td, th {
         margin: 0 0 0 7%;
     }
 
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 40%;
+        height: auto;
+    }
+    
     .menul{
         width: 55%;
-        margin: 0 0 0 7.5%;
+        margin: 0 0 0 0;
     }
 
     .menul ul a{
@@ -335,9 +351,20 @@ td, th {
 
 @media screen and (max-width: 1280px){
 
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 45%;
+        height: auto;
+    }
+    
     .menul{
         width: 60%;
-        margin: 0 0 0 10%;
+        margin: 0 0 0 1%;
     }
 
     .menul ul a{
@@ -384,18 +411,24 @@ td, th {
 
 @media screen and (max-width: 1024px){
 
-    .logospace{
-        width: 15%;
-        margin: 0 0 0 2%;
-    }
-    
     .logospace a{
         font-size: 2.1vw;
     }
 
-    .menul{
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
         width: 55%;
-        margin: 0 0 0 9%;
+        height: auto;
+    }
+    
+    .menul{
+        width: 65%;
+        margin: 0 0 0 1%;
     }
 
     .menul ul a{
