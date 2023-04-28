@@ -409,3 +409,38 @@ body{
 
 }
 
+@media screen and (max-width: 375px){
+
+    .gridcontent{
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1.3%;
+        margin: 250% 0 0 0;
+    }
+
+    .categorybox{
+        width: 100%;
+        height: 22vh;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .categorytext{
+        width: 90%;
+        height: 22vh;
+        position: absolute;
+        background: rgb(0, 0, 0, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        overflow: hidden;
+        z-index: 100;
+        font-size: 23px;
+        font-weight: 500;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+
