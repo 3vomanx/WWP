@@ -175,13 +175,6 @@ body{
     color: #fe5f0a;
 }
 
-.sidePanel{
-    display: none;
-}
-
-.sidepanelbtn{
-    display: none;
-}
 
 @media screen and (max-width: 1600px){
 
@@ -352,6 +345,7 @@ body{
         color: var(--black);
         transition:all 0.1s ease;
     }
+
 }
 
 @media screen and (max-width: 1280px){
@@ -412,6 +406,7 @@ body{
         color: var(--black);
         transition:all 0.1s ease;
     }
+
 }
 
 @media screen and (max-width: 1024px){
@@ -450,6 +445,7 @@ body{
         background: #e2bb04;
         margin: 0 auto;
     }
+
 }
 
 @media screen and (max-width: 744px){
@@ -568,5 +564,15 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 745px){
+    .sidePanel{
+        display: none;
+    }
+    
+    .sidepanelbtn{
+        display: none;
     }
 }

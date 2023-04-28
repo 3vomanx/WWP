@@ -499,3 +499,13 @@ td, th {
     }
 
 }
+
+@media screen and (min-width: 745px){
+    .sidePanel{
+        display: none;
+    }
+    
+    .sidepanelbtn{
+        display: none;
+    }
+}
