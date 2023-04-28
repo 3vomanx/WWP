@@ -372,3 +372,88 @@ td, th {
     }
 
 }
+
+@media screen and (max-width: 1024px){
+
+    .logospace{
+        width: 15%;
+        margin: 0 0 0 2%;
+    }
+    
+    .logospace a{
+        font-size: 2.1vw;
+    }
+
+    .menul{
+        width: 55%;
+        margin: 0 0 0 9%;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.6vw;
+        font-weight: 700;
+    }
+
+    .areatitle{
+        width: 70%;
+        height: 7vh;
+        margin: 10% 0 0 0;
+    }
+
+    .contentarea{
+        width: 90%;
+        margin: 0 0 0 5%;
+    }
+
+}
+
+@media screen and (max-width: 744px){
+
+    .logospace{
+        width: 15%;
+        margin: 0 0 0 2%;
+    }
+    
+    .logospace a{
+        font-size: 2.5vw;
+    }
+
+    .menul{
+        width: 65%;
+        margin: 0 0 0 13%;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.9vw;
+        font-weight: 700;
+    }
+
+    .contentarea{
+        width: 95%;
+        margin: 0 0 0 2.5%;
+    }
+
+    .areatitle{
+        width: 100%;
+        height: 7vh;
+        margin: 10% 0 0 0;
+    }
+
+    .categorycontainer ul li a{
+        font-size: 15px;
+        margin: 0 0 0 4%;
+        color: rgb(51, 51, 51);
+    }
+
+    .categorytitle{
+        font-weight: 600;
+        font-size: 2.1vw;
+    }
+
+}
