@@ -37,9 +37,18 @@ html{
 }
 
 .logospace{
-    width: 15%;
+    width: 10%;
     background: 8vh;
     margin: 0 0 0 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logospace img{
+    width: 50%;
+    height: auto;
 }
 
 .logospace a{
@@ -51,14 +60,9 @@ html{
     font-weight: 100;
 }
 
-.logospace img{
-    width: 50%;
-    height: auto;
-}
-
 .menul{
     width: 45%;
-    margin: 0 0 0 2%;
+    margin: 0 0 0 0;
 }
 
 .menul ul{
@@ -113,8 +117,6 @@ html{
     width: 70%;
     height: 6vh;
     margin: 9% 0 0 0;
-    display: flex;
-    gap: 1%;
 }
 
 .areatitle h1{
@@ -188,7 +190,6 @@ html{
     height: 6vh;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    /* border-radius: 15px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -211,7 +212,7 @@ html{
     width: 20%;
 }
 
-#benchmarkbox{
+.benchmarkbox{
     width: 100%;
     height: 64vh;
     border: none;
@@ -231,24 +232,11 @@ tr{
     border-color: inherit;
 }
 
-td{
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
-
-td:first-child{
-    width: 25%;
-}
-
-td:nth-child(2){
-    width: 45%;
-}
-
-td:nth-child(3){
-    width: 17%;
-}
-
 
 .fa-caret-down, .fa-caret-right{
     cursor: pointer;
@@ -262,10 +250,15 @@ td:nth-child(3){
         background: 8vh;
         margin: 0 0 0 2%;
     }
+
+    .logospace img{
+        width: 30%;
+        height: auto;
+    }
     
     .menul{
-        width: 40%;
-        margin: 0 0 0 5%;
+        width: 55%;
+        margin: 0 0 0 -2%;
     }
     
     .menul ul a{
@@ -277,296 +270,242 @@ td:nth-child(3){
     }
     
     .marker{
-        width: 60%;
+        width: 35%;
         height: 0.4vh;
         background: #e2bb04;
         margin: 0 auto;
-    }
-
-    .list{
-        width: 60%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 3% 0 0 13%;
-    }
-    
-    .listTitle{
-        width: 100%;
-        height: 1vh;
-    }
-    
-    .listTitle h1{
-        font-size: 22px;
-        font-weight: 700;
-    }
-    
-    .productCagetories{
-        width: 100%;
-        height: 238vh;
-        margin: 4% 0 0 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    
-    .categoryTitle{
-        width: 100%;
-        height: 6vh;
-        font-size: 17px;
-        padding-left: 10px;
-        font-weight: 700;
-        background:var(--maincolor);
-        display: flex;
-        align-items: center;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        color: rgb(255, 255, 255);
-    }
-    
-    .indicatorName{
-        width: 100%;
-        height: 5vh;
-        border-top: 1px solid var(--maincolor);
-        border-left: 1px solid var(--maincolor);
-        border-right: 1px solid var(--maincolor);
-        padding: 4px 0 4px 13px;
-        display: flex;
-        align-items: center;
-        box-sizing: border-box;
-        box-shadow: -1px 2px 11px rgb(97, 97, 97);
-    }
-    
-    .indicatorName a{
-        font-size: 16px;
-        font-weight: 400;
-        text-decoration: none;
-        color: var(--black);
-        transition:all 0.1s ease;
-    }
-
-    .areatitle{
-        width: 75%;
-        height: 7vh;
-        margin: 8% 0 0 0;
-    }
-
-    .categorycontainer ul{
-        text-decoration: none;
-        transition: all 0.2s ease;
-        text-decoration: none;
-    }
-
-    td, th{
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 7.4px;
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1280px){
-    .headerBar{
-        width: 100%;
-        height: 12vh;
-        background:#fe5f0a;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .categorycontainer{
-        width:25%;
-        height: 70vh;
-        overflow: scroll;
-        background: white;
-        border-radius: 15px;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
-        padding: 10px 0;
-    }
-
-    .categoryinfo{
-        width: 72%;
-        height: 68vh;
-        background: white;
-        box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 21px;
-        border-radius: 15px;
-    }
-
-    .benchmarkbox{
-        width: 100%;
-        height: 62vh;
-        border: none;
-        overflow: scroll;
-    }
-
-    table{
-        width: 100%;
-        border-collapse: collapse;
-        text-indent: initial;
-        border-spacing: 2px;
-    } 
-    
-    tr{
-        display: table-row;
-        vertical-align: inherit;
-        border-color: inherit;
     }
     
     td, th {
         border: 1px solid #dddddd;
         text-align: left;
-        padding: 5.5px;
+        padding: 7.4px;
     }
 
-    .listings{
-        width: 100%;
-        height: 70vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+    .areatitle{
+        width: 70%;
+        height: 7vh;
+        margin: 8% 0 0 0;
+    }
+
+}
+
+@media screen and (max-width: 1440px){
+
+    .areatitle{
+        width: 70%;
+        height: 7vh;
+        margin: 12% 0 0 0;
+    }
+
+    .contentarea{
+        margin: 0 0 0 7%;
+    }
+
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 40%;
+        height: auto;
     }
     
+    .menul{
+        width: 55%;
+        margin: 0 0 0 0;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.2vw;
+        font-weight: 700;
+    }
+
+    .marker{
+        width: 40%;
+        height: 0.3vh;
+        background: #e2bb04;
+        margin: 0 auto;
+    }
+
     .categorycontainer{
-        width:25%;
-        height: 68vh;
+        width: 28%;
+        height: 70vh;
         overflow: scroll;
         background: white;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
     }
-    
-    .category{
-        padding: 4px;
-    }
-    
-    .categorytitle{
-        font-weight: 600;
-    }
-    
-    .categorycontainer ul li{
-        list-style: none;
-        margin: 0 0 0 5%;
-    }
-    
-    .categorycontainer ul li a{
-        text-decoration: none;
-        transition: all 0.2s ease;
-        font-weight: 500;
-        text-decoration: none;
-    }
-    
-    .categorycontainer ul li a:hover{
-        color: #fe5f0a;
-        text-decoration: none;
-    }
-    
-    .categorycontainer ul li a{
-        margin: 0 0 0 4%;
-        color: rgb(51, 51, 51);
+
+    .listings{
+        gap: 2%;
     }
 
-    .categoryitem .itemselected{
-        color: #fe5f0a;
+}
+
+@media screen and (max-width: 1280px){
+
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 45%;
+        height: auto;
     }
     
+    .menul{
+        width: 60%;
+        margin: 0 0 0 1%;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.4vw;
+        font-weight: 700;
+    }
+
+    .marker{
+        width: 40%;
+        height: 0.3vh;
+        background: #e2bb04;
+        margin: 0 auto;
+    }
+
+    .areatitle{
+        width: 70%;
+        height: 7vh;
+        margin: 12% 0 0 0;
+    }
+
+    .contentarea{
+        width: 80%;
+        margin: 0 0 0 5%;
+    }
+
+    .categorycontainer{
+        width: 30%;
+        height: 70vh;
+        overflow: scroll;
+        background: white;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
+        padding: 10px 0;
+    }
+
+    .listings{
+        gap: 2%;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .logospace a{
+        font-size: 2.1vw;
+    }
+
     .logospace{
-        width: 25%;
-        height: 17vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 55%;
+        height: auto;
+    }
+    
+    .menul{
+        width: 65%;
+        margin: 0 0 0 1%;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.6vw;
+        font-weight: 700;
+    }
+
+    .areatitle{
+        width: 70%;
+        height: 7vh;
+        margin: 10% 0 0 0;
+    }
+
+    .contentarea{
+        width: 90%;
+        margin: 0 0 0 5%;
+    }
+
+}
+
+@media screen and (max-width: 744px){
+
+    .logospace{
+        width: 15%;
         margin: 0 0 0 2%;
     }
     
     .logospace a{
-        font-size:30px;
+        font-size: 2.5vw;
+    }
+
+    .menul{
+        width: 65%;
+        margin: 0 0 0 13%;
+    }
+
+    .menul ul a{
         text-decoration: none;
-        color:var(--black);
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.9vw;
+        font-weight: 700;
+    }
+
+    .contentarea{
+        width: 95%;
+        margin: 0 0 0 2.5%;
+    }
+
+    .areatitle{
+        width: 100%;
+        height: 7vh;
+        margin: 10% 0 0 0;
+    }
+
+    .categorycontainer ul li a{
+        font-size: 15px;
+        margin: 0 0 0 4%;
+        color: rgb(51, 51, 51);
+    }
+
+    .categorytitle{
         font-weight: 600;
-        text-shadow: 2px 2px 10px black;
-        color: #dddddd;
-        font-family: 'Ultra', serif;
-        font-weight: 100;
+        font-size: 2.1vw;
     }
-        
-    
-    .logospace p{
-        font-size: 14px;
-        font-weight: 350;
-        text-shadow: 0px 5px solid blue;
-    }
-    
-    .headermenu{
+
+}
+
+@media screen and (min-width: 745px){
+    .sidePanel{
         display: none;
     }
-
-    .tabletitles{
-        width: 100%;
-        height: 6vh;
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        background:#fe5f0a;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
-        align-items: center;
-        padding-left: 8px;
-        color: rgb(241, 241, 241);
-        font-weight: 600;
-    }
     
-    .countries{
-        width: 30%;
+    .sidepanelbtn{
+        display: none;
     }
-    
-    .prodname{
-        width: 50%;
-    }
-    
-    .ranking{
-        width: 20%;
-    }
-
 }
