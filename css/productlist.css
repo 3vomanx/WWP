@@ -531,7 +531,6 @@ body{
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
-
     }
 
     .sidebtnpushed{
@@ -572,6 +571,7 @@ body{
     }
 }
 
+
 @media screen and (max-width: 376px){
 
     .headerbar{
@@ -581,7 +581,7 @@ body{
     }
 
     .logospace{
-        margin: 0 0 0 11%;
+        margin: 0 0 0 13.5%;
     }
     
     .logospace a{
@@ -589,7 +589,7 @@ body{
     }
 
     .logospace img{
-        width: 100%;
+        width: 120%;
         height: auto;
     }
 
@@ -597,8 +597,12 @@ body{
         display: none;
     }
 
-    .content{
-        margin: 30% 0 0 0;
+    .list{
+        margin: 25% 0 0 7.5%;
+    }
+
+    .listTitle{
+        margin: 0 0 0 6%;
     }
 
     .productCagetories{
@@ -627,14 +631,6 @@ body{
     .indicatorName{
         width: 100%;
         height: 4.5vh;
-        border-top: 1px solid var(--maincolor);
-        border-left: 1px solid var(--maincolor);
-        border-right: 1px solid var(--maincolor);
-        padding: 4px 0 4px 13px;
-        display: flex;
-        align-items: center;
-        box-sizing: border-box;
-        box-shadow: -1px 2px 11px rgb(97, 97, 97);
     }
 
     .indicatorName a{
@@ -646,10 +642,10 @@ body{
     }
 
     .sidepanelbtn{
-        margin:0 0 0 60%;
-        transition: all 0.6s ease;
+        margin:0 0 0 61.5%;
+        transition: all 0.5s ease;
     }
-
+    
     .sidepanelbtn .main{
         color: white;
         cursor: pointer;
@@ -661,31 +657,34 @@ body{
     }
     
     .sidePanel{
-        width: 40%;
+        width: 30%;
         height: 100vh;
         background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
-        transition: 0.8s;
+        transition: 0.5s;
         margin: -2.6% 0 0 0;
+        position: fixed;
     }
 
     .sidepushed{
+        width: 30%;
         height: 100vh;
         background: #ec5402;
         z-index: 1000;
-        transform: translate(150%, 0%);
+        transform: translate(235%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
     }
 
     .sidebtnpushed{
-        margin:0 0 0 33%;
+        margin:0 0 0 50%;
     }
     
     .sidePanel ul{
         height: 20vh;
+        list-style:none;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -693,8 +692,10 @@ body{
     }
     
     .sidePanel ul li a{
-        margin: 0 0 0 0%;
-        font-size: 3.7vw;
+        color: white;
+        text-decoration: none;
+        margin: 0 0 0 4%;
+        font-size: 2.1vw;
         transition: all 0.2s ease;
         font-weight: 500;
     }
@@ -705,7 +706,7 @@ body{
     
     nav{
         width: 100%;
-        margin: 40% 0 0 0;
+        margin: -20% 0 0 0;
     }
 }
 
