@@ -1,5 +1,5 @@
 $(window).scroll(function(){
-    $('nav').toggleClass('scrolled', $(this).scrollTop() > 10)
+    $('.headerbar').toggleClass('scrolled', $(this).scrollTop() > 10)
 });
 
 $(document).ready(function(){

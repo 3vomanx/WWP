@@ -1,10 +1,13 @@
-
+$(window).scroll(function(){
+    $('.headerbar').toggleClass('scrolled', $(this).scrollTop() > 1)
+});
 
 $(document).ready(function(){
     $(".main").click(function(){
         $(".main").toggleClass("fa-bars")
     })
 })
+
 
 $(document).ready(function(){
     $(".main").click(function(){
@@ -13,6 +16,4 @@ $(document).ready(function(){
     })
 })
 
-$(window).scroll(function(){
-    $('.headerbar').toggleClass('scrolled', $(this).scrollTop() > 60)
-});
+

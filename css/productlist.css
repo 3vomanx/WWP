@@ -450,6 +450,11 @@ body{
 
 @media screen and (max-width: 744px){
 
+    .headerbar{
+        position: absolute;
+        top: 0;
+    }
+
     .content{
         margin: 15% 0 0 0 ;
     }
