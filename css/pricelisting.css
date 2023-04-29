@@ -500,6 +500,245 @@ td, th {
 
 }
 
+@media screen and (max-width: 376px){
+
+    .headerbar{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .logospace{
+        margin: 0 0 0 13.5%;
+    }
+    
+    .logospace a{
+        font-size: 6vw;
+    }
+
+    .logospace img{
+        width: 120%;
+        height: auto;
+    }
+
+    .menul{
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+        height: 170vh;
+        background: #f1f3f6;
+        top: 0;
+    }
+
+    .contentarea{
+        width: 95%;
+        height: 80vh;
+        margin: 0 0 0 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        /* background: red; */
+    }
+    
+    .areatitle{
+        width: 100%;
+        height: 6vh;
+        margin: 40% 0 0 0;
+    }
+    
+    .areatitle h1{
+        font-size: 5.2vw;
+        font-weight: 700;
+        letter-spacing: 0.02cm;
+    }
+    
+    .listings{
+        width: 100%;
+        height: 170vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .categorycontainer{
+        width:93%;
+        height: 70vh;
+        overflow: scroll;
+        background: white;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
+        padding: 10px 0;
+    }
+    
+    .categoryitem .itemselected{
+        color: #fe5f0a;
+    }
+    
+    .category{
+        padding: 4px;
+    }
+    
+    .categorytitle{
+        font-weight: 600;
+    }
+    
+    .categorycontainer ul li{
+        list-style: none;
+        margin: 0 0 0 5%;
+        font-size: 4.2vw;
+    }
+        
+    .categorycontainer ul li a{
+        text-decoration: none;
+        transition: all 0.2s ease;
+        font-weight: 500;
+        text-decoration: none;
+    }
+        
+    .categorycontainer ul li a:hover{
+        color: #fe5f0a;
+        text-decoration: none;
+    }
+        
+    .categorycontainer ul li a{
+        margin: 0 0 0 4%;
+        color: rgb(51, 51, 51);
+    }
+    
+    .categoryinfo{
+        width: 93%;
+        height: 70vh;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 21px;
+        border-radius: 15px;
+    }
+    
+    .tabletitles{
+        width: 100%;
+        height: 6vh;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background:#fe5f0a;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
+        align-items: center;
+        padding-left: 8px;
+        color: rgb(241, 241, 241);
+    }
+    
+    .countries{
+        width: 30%;
+        font-size: 4vw;
+    }
+    
+    .prodname{
+        width: 50%;
+        font-size: 3.8vw;
+    }
+    
+    .ranking{
+        width: 20%;
+        font-size: 4vw;
+    }
+    
+    .benchmarkbox{
+        width: 100%;
+        height: 64vh;
+        border: none;
+        overflow: scroll;
+    }
+    
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        text-indent: initial;
+        border-spacing: 2px;
+    } 
+    
+    tr{
+        display: table-row;
+        vertical-align: inherit;
+        border-color: inherit;
+    }
+    
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .sidepanelbtn{
+        margin:0 0 0 61.5%;
+        transition: all 0.6s ease;
+    }
+    
+    .sidepanelbtn .main{
+        color: white;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    
+    .sidepanelbtn .main:hover{
+        color: var(--headeryellow);
+    }
+    
+    .sidePanel{
+        width: 40%;
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(340%, 0%);
+        transition: 0.8s;
+        margin: -2.6% 0 0 0;
+        position: fixed;
+    }
+
+    .sidepushed{
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(150%, 0%);
+        transition: 0.5s;
+        margin: -2.6% 0 0 0;
+        position: fixed;
+    }
+
+    .sidebtnpushed{
+        margin:0 0 0 32%;
+    }
+    
+    .sidePanel ul{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30% 0 0 5%;
+        list-style: none;
+    }
+    
+    .sidePanel ul li a{
+        margin: 0 0 0 0%;
+        font-size: 3.7vw;
+        transition: all 0.2s ease;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .sidePanel ul li a:hover{
+        color: var(--headeryellow);
+    }
+    
+    nav{
+        width: 100%;
+        margin: 70% 0 0 0;
+    }
+}
+
 @media screen and (min-width: 745px){
     .sidePanel{
         display: none;
