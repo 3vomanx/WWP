@@ -622,7 +622,6 @@ body{
     
     .sidePanel ul{
         height: 20vh;
-        list-style:none;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -630,10 +629,8 @@ body{
     }
     
     .sidePanel ul li a{
-        color: white;
-        text-decoration: none;
-        margin: 0 0 0 1%;
-        font-size: 3.6vw;
+        margin: 0 0 0 0%;
+        font-size: 3.7vw;
         transition: all 0.2s ease;
         font-weight: 500;
     }
