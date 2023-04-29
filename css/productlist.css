@@ -603,11 +603,24 @@ body{
 
     .productCagetories{
         width: 130%;
-        height: 225vh;
+        height: 200vh;
         margin: 14% 0 0 5%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .indicatorName{
+        width: 100%;
+        height: 4.3vh;
+        border-top: 1px solid var(--maincolor);
+        border-left: 1px solid var(--maincolor);
+        border-right: 1px solid var(--maincolor);
+        padding: 4px 0 4px 13px;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        box-shadow: -1px 2px 11px rgb(97, 97, 97);
     }
 
     .indicatorName a{
