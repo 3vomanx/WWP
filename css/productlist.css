@@ -572,6 +572,116 @@ body{
     }
 }
 
+@media screen and (max-width: 376px){
+
+    .headerbar{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .logospace{
+        margin: 0 0 0 11%;
+    }
+    
+    .logospace a{
+        font-size: 6vw;
+    }
+
+    .logospace img{
+        width: 100%;
+        height: auto;
+    }
+
+    .menul{
+        display: none;
+    }
+
+    .content{
+        margin: 30% 0 0 0;
+    }
+
+    .productCagetories{
+        width: 130%;
+        height: 225vh;
+        margin: 14% 0 0 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .indicatorName a{
+        font-size: 3.89vw;
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--black);
+        transition:all 0.1s ease;
+    }
+
+    .sidepanelbtn{
+        margin:0 0 0 60%;
+        transition: all 0.6s ease;
+    }
+
+    .sidepanelbtn .main{
+        color: white;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    
+    .sidepanelbtn .main:hover{
+        color: var(--headeryellow);
+    }
+    
+    .sidePanel{
+        width: 40%;
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(340%, 0%);
+        transition: 0.8s;
+        margin: -2.6% 0 0 0;
+    }
+
+    .sidepushed{
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(150%, 0%);
+        transition: 0.5s;
+        margin: -2.6% 0 0 0;
+        position: fixed;
+    }
+
+    .sidebtnpushed{
+        margin:0 0 0 33%;
+    }
+    
+    .sidePanel ul{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30% 0 0 5%;
+    }
+    
+    .sidePanel ul li a{
+        margin: 0 0 0 0%;
+        font-size: 3.7vw;
+        transition: all 0.2s ease;
+        font-weight: 500;
+    }
+    
+    .sidePanel ul li a:hover{
+        color: var(--headeryellow);
+    }
+    
+    nav{
+        width: 100%;
+        margin: 40% 0 0 0;
+    }
+}
+
 @media screen and (min-width: 745px){
     .sidePanel{
         display: none;
