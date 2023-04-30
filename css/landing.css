@@ -100,7 +100,7 @@ body{
 
 .content{
     width: 100%;
-    height: 90vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,6 +110,7 @@ body{
 
 .gridcontent{
     width: 85%;
+    height: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 1.3%;
@@ -165,6 +166,48 @@ body{
 .img-hover-zoom:hover img {
   transform: scale(1.05);
   position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background:var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    box-shadow: 5px 5px 20px black;
+}
+
+.footercontent{
+    width: 70%;
+    height: 5vh;
+    margin: 0.4% 0 0 0;
+}
+
+.footermenu{
+    width: 30%;
+}
+
+.footermenu ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1vw;
+}
+
+.footermenu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.footermenu ul li a:hover{
+    text-decoration: none;
+    color: var(--headeryellow);
 }
 
 

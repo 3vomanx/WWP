@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f1f3f6;
+}
+
+:root {
+    --headeryellow: #FFCA08;
+    --headermenu: #221F21;
+    --black: #000000;
+    --maincolor: #fe5f0a;
+}
+
+.headerbar{
+    width: 100%;
+    height: 9.5vh;
+    background: #fe5f0a;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 5px 2px 35px black;
+}
+
+.logospace{
+    width: 10%;
+    background: 8vh;
+    margin: 0 0 0 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logospace img{
+    width: 50%;
+    height: auto;
+}
+
+.logospace a{
+    font-size: 28px;
+    text-decoration: none;
+    color: #eaecf0;
+    text-shadow: 2px 2px 10px black;
+    font-family: 'Ultra', serif;
+    font-weight: 100;
+}
+
+.menul{
+    width: 45%;
+    margin: 0 0 0 0;
+}
+
+.menul ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+}
+
+.menul ul a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease;
+    font-size: 1vw;
+    font-weight: 550;
+}
+
+.menul ul a:hover{
+    color: var(--headeryellow)
+}
+
+.marker{
+    width: 70%;
+    height: 0.3vh;
+    background: #e2bb04;
+    margin: 0 auto;
+}
+
+.menul .selected{
+    color: var(--headeryellow);
+}
+
+.content{
+    width: 100%;
+    height: 72.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abouttxt{
+    width: 60%;
+    margin: 10% 15%;
+    user-select: none;
+}
+
+.abouttxt h1{
+    width: 100%;
+    font-size: 35px;
+}
+
+.abouttxt p{
+    font-size: 20px;
+}
+
+.copyright{
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background:var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    position:absolute;
+    box-shadow: 5px 5px 20px black;
+    z-index: 9999;
+}
+
+.footercontent{
+    width: 70%;
+    height: 5vh;
+    margin: 0.4% 0 0 0;
+}
+
+.footermenu{
+    width: 30%;
+}
+
+.footermenu ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1vw;
+}
+
+.footermenu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.footermenu ul li a:hover{
+    text-decoration: none;
+    color: var(--headeryellow);
+}
+
+@media screen and (max-width: 744px){
+
+    .headerbar{
+        position: absolute;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .categorybox{
+        height: 20vh;
+    }
+
+    .categorytext{
+        height: 20vh;
+        font-size: 3vw;
+    }
+
+    .content{
+        margin: 15% 0 0 0 ;
+    }
+
+    .logospace{
+        width: 18%;
+        margin: 0 0 0 6%;
+    }
+    
+    .logospace a{
+        font-size: 3.5vw;
+    }
+
+    .logospace img{
+        width: 70%;
+        height: auto;
+    }
+
+    .menul{
+        width: 65%;
+        margin: 0 0 0 13%;
+        display: none;
+    }
+
+    .menul ul li{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.9vw;
+        font-weight: 700;
+    }
+
+    .list{
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 5% 0 0 8%;
+    }
+
+    .sidepanelbtn{
+        margin:0 0 0 70%;
+        transition: all 0.5s ease;
+    }
+    
+    .sidepanelbtn .main{
+        color: white;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    
+    .sidepanelbtn .main:hover{
+        color: var(--headeryellow);
+    }
+    
+    .sidePanel{
+        width: 30%;
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(340%, 0%);
+        transition: 0.5s;
+        margin: -2.6% 0 0 0;
+        position: fixed;
+    }
+
+    .sidepushed{
+        width: 30%;
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(235%, 0%);
+        transition: 0.5s;
+        margin: -2.6% 0 0 0;
+        position: fixed;
+    }
+
+    .sidebtnpushed{
+        margin:0 0 0 50%;
+    }
+    
+    .sidePanel ul{
+        height: 20vh;
+        list-style:none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30% 0 0 5%;
+    }
+    
+    .sidePanel ul li a{
+        color: white;
+        text-decoration: none;
+        margin: 0 0 0 4%;
+        font-size: 2.1vw;
+        transition: all 0.2s ease;
+        font-weight: 500;
+    }
+    
+    .sidePanel ul li a:hover{
+        color: var(--headeryellow);
+    }
+    
+    nav{
+        width: 100%;
+        margin: -5% 0 0 0;
+    }
+}
+
+@media screen and (min-width: 745px){
+    .sidePanel{
+        display: none;
+    }
+    
+    .sidepanelbtn{
+        display: none;
+    }
+}
