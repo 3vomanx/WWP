@@ -3,40 +3,35 @@ $(window).scroll(function(){
 });
 
 $(document).ready(function(){
-    $(".alcobeve").click(function(){
+    $(".albeve").click(function(){
         $(".ab").slideToggle()
         $(".alcobeve").toggleClass("fa-caret-right")
     });
-    $(".basicfooditems").click(function(){
+    $(".bfitems").click(function(){
         $(".bfi").slideToggle()
         $(".basicfooditems").toggleClass("fa-caret-right")
     });
-    $(".electronics").click(function(){
+    $(".eltro").click(function(){
         $(".elnics").slideToggle()
         $(".electronics").toggleClass("fa-caret-right")
     });
-    $(".appleproducts").click(function(){
+    $(".appro").click(function(){
         $(".appleprod").slideToggle()
         $(".appleproducts").toggleClass("fa-caret-right")
     });
-    $(".sony").click(function(){
+    $(".soni").click(function(){
         $(".sonyprod").slideToggle()
         $(".sony").toggleClass("fa-caret-right")
     });
-    $(".fruavege").click(function(){
+    $(".fruandvege").click(function(){
         $(".fruvege").slideToggle()
         $(".fruavege").toggleClass("fa-caret-right")
     });
-    $(".noabe").click(function(){
+    $(".noalco").click(function(){
         $(".nonabe").slideToggle()
         $(".noabe").toggleClass("fa-caret-right")
     });
-    $(".restau").click(function(){
-        $(".resto").slideToggle()
-        $(".restau").toggleClass("fa-caret-right")
-    });
 })
-
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
     window.location.href= 'Rankings.html'

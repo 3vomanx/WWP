@@ -153,6 +153,7 @@ html{
 
 .categorytitle{
     font-weight: 600;
+    cursor: pointer;
 }
 
 .categorycontainer ul li{
