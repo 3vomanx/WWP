@@ -556,10 +556,10 @@ td, th {
     
     .listings{
         width: 100%;
-        height: 170vh;
+        height: 141vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .categorycontainer{
@@ -691,7 +691,7 @@ td, th {
         height: 100vh;
         background: #ec5402;
         z-index: 1000;
-        transform: translate(340%, 0%);
+        transform: translate(340%, 1.2%);
         transition: 0.8s;
         margin: -2.6% 0 0 0;
         position: fixed;
@@ -701,7 +701,7 @@ td, th {
         height: 100vh;
         background: #ec5402;
         z-index: 1000;
-        transform: translate(150%, 0%);
+        transform: translate(150%, 1.2%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
@@ -735,7 +735,7 @@ td, th {
     
     nav{
         width: 100%;
-        margin: 70% 0 0 0;
+        margin: 80% 0 0 0;
     }
 }
 
