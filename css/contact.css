@@ -106,18 +106,18 @@ body{
     align-items: center;
 }
 
-.abouttxt{
+.contacttxt{
     width: 60%;
     margin: 10% 15%;
 }
 
-.abouttxt h1{
+.contacttxt h1{
     width: 100%;
     font-size: 35px;
 }
 
-.abouttxt p{
-    font-size: 20px;
+.contacttxt span{
+    font-size: 19px;
 }
 
 .copyright{

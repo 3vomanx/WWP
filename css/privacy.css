@@ -32,7 +32,7 @@ html{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
+    background: #ff7930; 
   }
 
 body{
