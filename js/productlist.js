@@ -16,4 +16,6 @@ $(document).ready(function(){
     })
 })
 
-
+$(document).on('click', '.listitem', function(){
+    localStorage.setItem("ClickedId", this.id);
+});
