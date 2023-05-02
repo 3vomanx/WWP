@@ -32,6 +32,7 @@ $(document).ready(function(){
         $(".noabe").toggleClass("fa-caret-right")
     });
 })
+
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
     window.location.href= 'Rankings.html'

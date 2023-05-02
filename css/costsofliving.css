@@ -23,6 +23,7 @@ html{
     --headeryellow: #FFCA08;
     --headermenu: #221F21;
     --black: #000000;
+    --maincolor: #fe5f0a;
 }
 
 .headerbar{
@@ -233,6 +234,18 @@ tr{
     border-color: inherit;
 }
 
+td:first-child{
+    width: 25%;
+}
+
+td:nth-child(2){
+    width: 45%;
+}
+
+td:nth-child(3){
+    width: 17%;
+}
+
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -242,6 +255,48 @@ td, th {
 .fa-caret-down, .fa-caret-right{
     cursor: pointer;
     padding: 0 3px;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background:var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    box-shadow: 5px 5px 20px black;
+}
+
+.footercontent{
+    width: 70%;
+    height: 5vh;
+    margin: 0.4% 0 0 0;
+}
+
+.footermenu{
+    width: 30%;
+}
+
+.footermenu ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1vw;
+}
+
+.footermenu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.footermenu ul li a:hover{
+    text-decoration: none;
+    color: var(--headeryellow);
 }
 
 @media screen and (max-width: 1600px){
@@ -750,48 +805,6 @@ td, th {
     nav{
         width: 100%;
         margin: 80% 0 0 0;
-    }
-
-    .footer{
-        width: 100%;
-        height: 10vh;
-        background:var(--maincolor);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        bottom: 0;
-        box-shadow: 5px 5px 20px black;
-    }
-    
-    .footercontent{
-        width: 70%;
-        height: 5vh;
-        margin: 0.4% 0 0 0;
-    }
-    
-    .footermenu{
-        width: 30%;
-    }
-    
-    .footermenu ul{
-        display: flex;
-        flex-direction: row;
-        text-decoration: none;
-        list-style: none;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        font-size: 1vw;
-    }
-    
-    .footermenu ul li a{
-        text-decoration: none;
-        color: white;
-        transition: all 0.2s ease;
-    }
-    
-    .footermenu ul li a:hover{
-        text-decoration: none;
-        color: var(--headeryellow);
     }
 }
 
