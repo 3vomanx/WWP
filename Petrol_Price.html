@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price Listing | worldwideprices.com</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./css/costsofliving.css">
+    <link rel="stylesheet" href="./css/petrolprice.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="./js/costofliving.js"></script>
-    <script src="./js/col.js"></script>
+    <script src="./js/petrolpricedb.js"></script>
+    <script src="./js/petrolprices.js"></script>
     <link rel="shortcut icon" href="./images/tabislogo.png">
 </head>
 <body>
@@ -33,11 +33,11 @@
                     <a href="./Compare_Countries.html">Compare Countries</a>
                 </li>
                 <li>
-                    <a href="./Cost_Of_Living.html" class="selected">Costs Of Living</a>
-                    <div class="marker"></div>
+                    <a href="./Cost_Of_Living.html">Costs Of Living</a>
                 </li>
                 <li>
-                    <a href="./Petrol_Prices.html">Petrol Prices</a>
+                    <a href="./Petrol_Prices.html" class="selected">Petrol Prices</a>
+                    <div class="marker"></div>
                 </li>
             </ul>
         </div>
@@ -71,79 +71,31 @@
     <div class="content">
         <div class="contentarea">
             <div class="areatitle">
-                <h1 id="categorynametitle">Cost of living in Africa per person/month</h1>
+                <h1 id="categorynametitle"></h1>
             </div>
             <div class="listings">
                 <div class="categorycontainer">
                     <ul class="category">
                         <li class="categorytitle albeve"><i class="fa fa-regular fa-caret-down alcobeve" style="font-size: 25px;">
-                        </i>Africa</li>
+                        </i>Petrol Prices</li>
                             <li class="categoryitem ab" id="0">
-                                <a href="#" target="_parent" id="categoryitem">Africa</a>
+                                <a href="#" target="_parent" id="categoryitem">Natural Gas Prices</a>
+                            </li>
+                            <li class="categoryitem ab" id="1">
+                                <a href="#" target="_parent" id="categoryitem1">Diesel Prices</a>
+                            </li>
+                            <li class="categoryitem ab" id="2">
+                                <a href="#" target="_parent" id="categoryitem2">Gasoline Prices</a>
+                            </li>
+                            <li class="categoryitem ab" id="3">
+                                <a href="#" target="_parent" id="categoryitem3">LPG Prices</a>
                             </li>
                     </ul>
-                    <ul class="category">
-                        <li class="categorytitle bfitems"><i class="fa fa-regular fa-caret-down basicfooditems" style="font-size: 25px;">
-                        </i>America</li>
-                            <li class="categoryitem bfi" id="1">
-                                <a href="#" target="_parent" id="categoryitem1">Caribbean</a>
-                            </li>
-                            <li class="categoryitem bfi" id="2">
-                                <a href="#" target="_parent" id="categoryitem2">Central America</a>
-                            </li>
-                            <li class="categoryitem bfi" id="3">
-                                <a href="#" target="_parent" id="categoryitem3">Northern America</a>
-                            </li>
-                            <li class="categoryitem bfi" id="4">
-                                <a href="#" target="_parent" id="categoryitem4">South America</a>
-                            </li>
-                    </ul>
-                    <ul class="category">
-                        <li class="categorytitle eltro"><i class="fa fa-regular fa-caret-down electronics" style="font-size: 25px;">
-                        </i>Asia</li>
-                            <li class="categoryitem elnics" id="5">
-                                <a href="#" target="_parent" id="categoryitem5">Central Asia</a>
-                            </li>
-                            <li class="categoryitem elnics" id="6">
-                                <a href="#" target="_parent" id="categoryitem6">Eastern Asia</a>
-                            </li>
-                            <li class="categoryitem elnics" id="7">
-                                <a href="#" target="_parent" id="categoryitem7">South-Eastern Asia</a>
-                            </li>
-                            <li class="categoryitem elnics" id="8">
-                                <a href="#" target="_parent" id="categoryitem8">Southern Asia</a>
-                            </li>  
-                            <li class="categoryitem elnics" id="9">
-                                <a href="#" target="_parent" id="categoryitem9">Western Asia</a>
-                            </li>       
-                    </ul>
-                    <ul class="category">
-                        <li class="categorytitle appro"><i class="fa fa-regular fa-caret-down appleproducts" style="font-size: 25px;">
-                        </i>Europe</li>
-                            <li class="categoryitem appleprod" id="10">
-                                <a href="#" target="_parent" id="categoryitem10">Eastern Europe</a>
-                            </li>
-                            <li class="categoryitem appleprod" id="11">
-                                <a href="#" target="_parent" id="categoryitem11">Northern Europe</a>
-                            </li>
-                            <li class="categoryitem appleprod" id="12">
-                                <a href="#" target="_parent" id="categoryitem12">Southern Europe</a>
-                            </li>
-                            <li class="categoryitem appleprod" id="13">
-                                <a href="#" target="_parent" id="categoryitem13">Western Europe</a>
-                            </li>
-                    </ul>
-                    <ul class="category">
-                        <li class="categorytitle soni"><i class="fa fa-regular fa-caret-down sony" style="font-size: 25px;">
-                        </i>Oceania</li>
-                            <li class="categoryitem sonyprod" id="14">
-                                <a href="#" target="_parent" id="categoryitem14">Oceania</a>
-                            </li>
                 </div>
                 <div class="categoryinfo">
                     <div class="tabletitles">
                         <div class="countries">
-                            <span>City / Country</span>
+                            <span>Country</span>
                         </div>
                         <div class="prodname">
                             <span id="prodtitle"></span>
