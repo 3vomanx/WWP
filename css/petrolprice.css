@@ -34,7 +34,8 @@ html{
     flex-direction: row;
     align-items: center;
     box-shadow: 5px 2px 35px black;
-    position: relative;
+    position: fixed;
+    z-index: 9999;
 }
 
 .logospace{
@@ -301,6 +302,13 @@ td, th {
 
 @media screen and (max-width: 1600px){
 
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+
     .logospace{
         width: 15%;
         background: 8vh;
@@ -347,6 +355,13 @@ td, th {
 }
 
 @media screen and (max-width: 1440px){
+
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
 
     .areatitle{
         width: 70%;
@@ -406,6 +421,13 @@ td, th {
 }
 
 @media screen and (max-width: 1280px){
+
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
 
     .logospace{
         width: 15%;
@@ -467,6 +489,13 @@ td, th {
 
 @media screen and (max-width: 1024px){
 
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+
     .logospace a{
         font-size: 2.1vw;
     }
@@ -509,6 +538,13 @@ td, th {
 }
 
 @media screen and (max-width: 744px){
+
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
 
     .logospace{
         width: 15%;
@@ -559,8 +595,9 @@ td, th {
 @media screen and (max-width: 376px){
 
     .headerbar{
-        position: fixed;
+        position: absolute;
         top: 0;
+        position: fixed;
         z-index: 9999;
     }
 
