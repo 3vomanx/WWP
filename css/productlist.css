@@ -218,6 +218,11 @@ body{
     color: var(--headeryellow);
 }
 
+.copyright{
+    color: white;
+    margin-top: 0.5%;
+}
+
 
 @media screen and (max-width: 1600px){
 
