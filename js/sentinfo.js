@@ -2493,7 +2493,7 @@ window.addEventListener("load", function(){
         categoryitem.classList.add("itemselected")
     }else if(id == 9){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Eggs prices'
+        title.innerText = 'Eggs prices, 12 pcs'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Eggs prices by country, around the world, March 2023'
         var categoryitem = document.getElementById('categoryitem9')
