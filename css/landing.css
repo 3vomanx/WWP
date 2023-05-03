@@ -294,6 +294,7 @@ body{
         justify-content: space-between;
         flex-wrap: wrap;
         font-size: 17px;
+        font-weight: 500;
     }
     
     .footermenu ul li a{
