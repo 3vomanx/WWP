@@ -260,6 +260,18 @@ tr{
     border-color: inherit;
 }
 
+td:first-child{
+    width: 25%;
+}
+
+td:nth-child(2){
+    width: 45%;
+}
+
+td:nth-child(3){
+    width: 17%;
+}
+
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -350,6 +362,24 @@ td, th {
         background: #e2bb04;
         margin: 0 auto;
     }
+
+    .content{
+        width: 100%;
+        height: 92vh;
+        background: #f1f3f6;
+        top: 0;
+    }
+
+    .categorycontainer{
+        width:25%;
+        height: 70vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        background: white;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
+        padding: 10px 0;
+    }
     
     td, th {
         border: 1px solid #dddddd;
@@ -358,9 +388,56 @@ td, th {
     }
 
     .areatitle{
-        width: 70%;
+        width: 80%;
         height: 7vh;
-        margin: 8% 0 0 0;
+        margin: 10% 0 0 0;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 30%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 0.5%;
     }
 
 }
@@ -368,7 +445,7 @@ td, th {
 @media screen and (max-width: 1440px){
 
     .areatitle{
-        width: 70%;
+        width: 90%;
         height: 7vh;
         margin: 12% 0 0 0;
     }
@@ -403,7 +480,7 @@ td, th {
 
     .marker{
         width: 40%;
-        height: 0.3vh;
+        height: 0.4vh;
         background: #e2bb04;
         margin: 0 auto;
     }
@@ -416,12 +493,61 @@ td, th {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     .listings{
         gap: 2%;
     }
 
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 30%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 0.5%;
+    }
 }
 
 @media screen and (max-width: 1280px){
@@ -458,7 +584,7 @@ td, th {
     }
 
     .areatitle{
-        width: 70%;
+        width: 90%;
         height: 7vh;
         margin: 12% 0 0 0;
     }
@@ -476,15 +602,73 @@ td, th {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
+        overflow-x:hidden;
+        overflow-y: hidden;
     }
 
     .listings{
         gap: 2%;
     }
 
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 35%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 0.5%;
+    }
+
+
 }
 
 @media screen and (max-width: 1024px){
+
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
 
     .logospace a{
         font-size: 2.1vw;
@@ -497,40 +681,107 @@ td, th {
     }
 
     .logospace img{
-        width: 55%;
+        width: 60%;
         height: auto;
     }
     
     .menul{
-        width: 65%;
-        margin: 0 0 0 1%;
+        width: 75%;
+        margin: 0 0 0 2%;
     }
 
     .menul ul a{
         text-decoration: none;
         color: #fff;
         transition: all 0.2s ease;
-        font-size: 1.6vw;
+        font-size: 1.7vw;
         font-weight: 700;
     }
 
+    .marker{
+        width: 35%;
+        height: 0.4vh;
+        background: #e2bb04;
+        margin: 0 auto;
+    }
+
+    .content{
+        width: 100%;
+        height: 100vh;
+        background: #f1f3f6;
+        top: 0;
+    }
+
     .areatitle{
-        width: 70%;
+        width: 95%;
         height: 7vh;
-        margin: 10% 0 0 0;
+        margin: 22% 0 0 0;
+    }
+
+    .areatitle h1{
+        font-size: 2vw;
+        font-weight: 700;
+        letter-spacing: 0.02cm;
     }
 
     .contentarea{
-        width: 90%;
-        margin: 0 0 0 5%;
+        width: 95%;
+        margin: 0 0 0 2.5%;
     }
 
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 80%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 38%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
+    }
 }
 
 @media screen and (max-width: 768px){
 
     .headerbar{
-        position: absolute;
+        position: fixed;
         top: 0;
     }
 
@@ -586,15 +837,16 @@ td, th {
         margin: 18% 0 0 0;
     }
 
+    .areatitle h1{
+        font-size: 2.3vw;
+        font-weight: 700;
+        letter-spacing: 0.02cm;
+    }
+
     .categorycontainer ul li a{
         font-size: 15px;
         margin: 0 0 0 4%;
         color: rgb(51, 51, 51);
-    }
-
-    .categorytitle{
-        font-weight: 600;
-        font-size: 2.1vw;
     }
 
     .sidepanelbtn{
@@ -616,18 +868,18 @@ td, th {
         width: 30%;
         height: 100vh;
         background: #ec5402;
-        z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
+        z-index: 1;
     }
 
     .sidepushed{
         width: 30%;
         height: 100vh;
         background: #ec5402;
-        z-index: 1000;
+        z-index: 1;
         transform: translate(235%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
@@ -662,28 +914,36 @@ td, th {
     
     nav{
         width: 100%;
-        margin: -20% 0 0 0;
+        margin: 38% 0 0 0;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .footer{
         width: 100%;
-        height: 8vh;
+        height: 10vh;
         background:var(--maincolor);
         display: flex;
         flex-direction: column;
         align-items: center;
         bottom: 0;
         box-shadow: 5px 5px 20px black;
+        position: relative;
+        z-index: 999;
     }
     
     .footercontent{
-        width: 70%;
+        width: 80%;
         height: 5vh;
-        margin: 0.4% 0 0 0;
+        margin: 1% 0 0 0;
     }
     
     .footermenu{
-        width: 40%;
+        width: 49%;
     }
     
     .footermenu ul{
@@ -692,8 +952,8 @@ td, th {
         text-decoration: none;
         list-style: none;
         justify-content: space-between;
-        flex-wrap: wrap;
-        font-size: 12px;
+        font-size: 17px;
+        font-weight: 500;
     }
     
     .footermenu ul li a{
@@ -706,12 +966,10 @@ td, th {
         text-decoration: none;
         color: var(--headeryellow);
     }
-
+    
     .copyright{
         color: white;
-        font-size: 12px;
-        margin-top: 5%;
-
+        margin-top: 1.9%;
     }
 
 }
@@ -955,7 +1213,7 @@ td, th {
     }
     
     .areatitle h1{
-        font-size: 5.2vw;
+        font-size: 4.5vw;
         font-weight: 700;
         letter-spacing: 0.02cm;
     }
@@ -977,6 +1235,7 @@ td, th {
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
+        overflow-x: hidden;
     }
     
     .categoryitem .itemselected{
@@ -1057,6 +1316,7 @@ td, th {
         height: 64vh;
         border: none;
         overflow: scroll;
+        overflow-x: hidden;
     }
     
     table{
@@ -1079,10 +1339,10 @@ td, th {
     }
 
     .sidepanelbtn{
-        margin:0 0 0 61.5%;
+        margin:0 0 0 60%;
         transition: all 0.6s ease;
     }
-    
+
     .sidepanelbtn .main{
         color: white;
         cursor: pointer;
@@ -1098,24 +1358,25 @@ td, th {
         height: 100vh;
         background: #ec5402;
         z-index: 1000;
-        transform: translate(340%, 1.2%);
+        transform: translate(340%, 0%);
         transition: 0.8s;
         margin: -2.6% 0 0 0;
-        position: fixed;
+        bottom: 0;
+
     }
 
     .sidepushed{
         height: 100vh;
         background: #ec5402;
         z-index: 1000;
-        transform: translate(150%, 1.2%);
+        transform: translate(150%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
     }
 
     .sidebtnpushed{
-        margin:0 0 0 32%;
+        margin:0 0 0 33%;
     }
     
     .sidePanel ul{
@@ -1124,7 +1385,6 @@ td, th {
         flex-direction: column;
         justify-content: space-evenly;
         margin: 30% 0 0 5%;
-        list-style: none;
     }
     
     .sidePanel ul li a{
@@ -1132,8 +1392,6 @@ td, th {
         font-size: 3.7vw;
         transition: all 0.2s ease;
         font-weight: 500;
-        text-decoration: none;
-        color: white;
     }
     
     .sidePanel ul li a:hover{
@@ -1154,6 +1412,9 @@ td, th {
         align-items: center;
         bottom: 0;
         box-shadow: 5px 5px 20px black;
+        position: relative;
+        z-index: 9999;
+
     }
     
     .footercontent{
@@ -1163,7 +1424,8 @@ td, th {
     }
     
     .footermenu{
-        width: 40%;
+        width: 95%;
+        margin: 0 0 0 4%;
     }
     
     .footermenu ul{
@@ -1173,7 +1435,8 @@ td, th {
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 15px;
+        font-size: 14.4px;
+        margin-top: 6%
     }
     
     .footermenu ul li a{
@@ -1189,12 +1452,12 @@ td, th {
 
     .copyright{
         color: white;
-        font-size: 11px;
-        margin-top: 7%;
+        font-size: 13px;
+        margin-top: 5%;
     }
 }
 
-@media screen and (min-width: 745px){
+@media screen and (min-width: 769px){
     .sidePanel{
         display: none;
     }

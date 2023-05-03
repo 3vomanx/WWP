@@ -218,9 +218,6 @@ body{
     margin-top: 0.5%;
 }
 
-
-
-
 @media screen and (max-width: 1600px){
 
     .headerbar{
@@ -229,7 +226,6 @@ body{
         position: fixed;
         z-index: 9999;
     }
-
 
     .logospace{
         width: 15%;
@@ -267,6 +263,53 @@ body{
         height: 30vh;
         border-radius: 15px;
         cursor: pointer;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 30%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 0.5%;
     }
 
 }
@@ -329,9 +372,67 @@ body{
 
     .marker{
         width: 70%;
-        height: 0.3vh;
+        height: 0.4vh;
         background: #e2bb04;
         margin: 0 auto;
+    }
+
+    .content{
+        width: 100%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 30%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 0.5%;
     }
 
 }
@@ -343,6 +444,14 @@ body{
         top: 0;
         position: fixed;
         z-index: 9999;
+    }
+
+    .gridcontent{
+        width: 95%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 1.5%;
+        margin: 6% 0 0 0;
     }
 
     .logospace{
@@ -376,6 +485,16 @@ body{
         margin: 0 auto;
     }
 
+    .content{
+        width: 100%;
+        height: 105vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+
     .categorybox{
         width: 100%;
         height: 25vh;
@@ -399,6 +518,54 @@ body{
         border-radius: 10px;
         text-align: center;
     }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 35%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1%;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -421,7 +588,7 @@ body{
     }
 
     .logospace img{
-        width: 55%;
+        width: 60%;
         height: auto;
     }
     
@@ -434,13 +601,13 @@ body{
         text-decoration: none;
         color: #fff;
         transition: all 0.2s ease;
-        font-size: 1.6vw;
+        font-size: 1.7vw;
         font-weight: 700;
     }
 
     .marker{
         width: 70%;
-        height: 0.3vh;
+        height: 0.4vh;
         background: #e2bb04;
         margin: 0 auto;
     }
@@ -475,9 +642,57 @@ body{
         border-radius: 10px;
         text-align: center;
     }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+    }
+    
+    .footercontent{
+        width: 80%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 38%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
+    }
 }
 
-@media screen and (max-width: 744px){
+@media screen and (max-width: 768px){
 
     .headerbar{
         position: absolute;
@@ -496,7 +711,13 @@ body{
     }
 
     .content{
-        margin: 15% 0 0 0 ;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
     }
 
     .logospace{
@@ -511,6 +732,7 @@ body{
     .logospace img{
         width: 70%;
         height: auto;
+        cursor: pointer;
     }
 
     .menul{
@@ -555,11 +777,11 @@ body{
         width: 30%;
         height: 100vh;
         background: #ec5402;
-        z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
+        z-index: 1000;
     }
 
     .sidepushed{
@@ -601,7 +823,56 @@ body{
     
     nav{
         width: 100%;
-        margin: -20% 0 0 0;
+        margin: 62% 0 0 0;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 20px black;
+        position: absolute;
+        z-index: 9999;
+    }
+    
+    .footercontent{
+        width: 80%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 50%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
     }
 }
 
@@ -655,7 +926,7 @@ body{
         display: grid;
         grid-template-columns: auto;
         gap: 1.3%;
-        margin: -35% 0 0 0;
+        margin: -15% 0 0 0;
     }
 
     .categorybox{
@@ -695,6 +966,7 @@ body{
         transform: translate(340%, 0%);
         transition: 0.8s;
         margin: -2.6% 0 0 0;
+        bottom: 0;
     }
 
     .sidepushed{
@@ -732,7 +1004,7 @@ body{
     
     nav{
         width: 100%;
-        margin: 40% 0 0 0;
+        margin: 80% 0 0 0;
     }
 
     .footer{
@@ -744,6 +1016,7 @@ body{
         align-items: center;
         bottom: 0;
         box-shadow: 5px 5px 20px black;
+        position: relative;
     }
     
     .footercontent{
@@ -753,7 +1026,8 @@ body{
     }
     
     .footermenu{
-        width: 40%;
+        width: 95%;
+        margin: 0 0 0 4%;
     }
     
     .footermenu ul{
@@ -763,7 +1037,7 @@ body{
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 12.4px;
+        font-size: 14.4px;
         margin-top: 6%
     }
     
@@ -780,15 +1054,14 @@ body{
 
     .copyright{
         color: white;
-        font-size: 12px;
+        font-size: 13px;
         margin-top: 5%;
-
     }
 }
 
 
 
-@media screen and (min-width: 745px){
+@media screen and (min-width: 769px){
     .sidePanel{
         display: none;
     }

@@ -2438,98 +2438,98 @@ window.addEventListener("load", function(){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Heineken beer prices, 330 ml. bottle'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Beer prices by country, around the world, September 2022'
+        categoryname.innerText = 'Beer prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem0')
         categoryitem.classList.add("itemselected")
     }else if(id == 1){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Wine Prices'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Wine prices by country, around the world, September 2022'
+        categoryname.innerText = 'Wine prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem1')
         categoryitem.classList.add("itemselected")
     }else if(id == 2){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Johnnie Walker Whiskey prices, 700 ml bottle'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Whiskey prices by country, around the world, September 2022'
+        categoryname.innerText = 'Whiskey prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem2')
         categoryitem.classList.add("itemselected")
     }else if(id == 3){
         var title = document.getElementById('prodtitle')
         title.innerText = '	Vodka Smirnoff prices, 700 ml'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Vodka prices by country, around the world, September 2022'
+        categoryname.innerText = 'Vodka prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem3')
         categoryitem.classList.add("itemselected")
     }else if(id == 4){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Flour prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Flour prices by country, around the world, March 2023'
+        categoryname.innerText = 'Flour prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem4')
         categoryitem.classList.add("itemselected")
     }else if(id == 5){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Rice prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Rice prices by country, around the world, March 2023'
+        categoryname.innerText = 'Rice prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem5')
         categoryitem.classList.add("itemselected")
     }else if(id == 6){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Sugar prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Sugar prices by country, around the world, March 2023'
+        categoryname.innerText = 'Sugar prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem6')
         categoryitem.classList.add("itemselected")
     }else if(id == 7){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Salt prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Salt prices by country, around the world, March 2023'
+        categoryname.innerText = 'Salt prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem7')
         categoryitem.classList.add("itemselected")
     }else if(id == 8){
         var title = document.getElementById('prodtitle')
         title.innerText = '	Two percent milk prices, 1 liter '
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Milk prices by country, around the world, March 2023'
+        categoryname.innerText = 'Milk prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem8')
         categoryitem.classList.add("itemselected")
     }else if(id == 9){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Eggs prices, 12 pcs'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Eggs prices by country, around the world, March 2023'
+        categoryname.innerText = 'Eggs prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem9')
         categoryitem.classList.add("itemselected")
     }else if(id == 10){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cooking oil prices, 1 liter'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cooking oil prices by country, around the world, March 2023'
+        categoryname.innerText = 'Cooking oil prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem10')
         categoryitem.classList.add("itemselected")
     }else if(id == 11){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Beef meat prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Beef prices by country, around the world, February 2023'
+        categoryname.innerText = 'Beef prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem11')
         categoryitem.classList.add("itemselected")
     }else if(id == 12){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Chicken meat prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Poultry prices by country, around the world, March 2023'
+        categoryname.innerText = 'Poultry prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem12')
         categoryitem.classList.add("itemselected")
     }else if(id == 13){
         var title = document.getElementById('prodtitle')
         title.innerText = 'GoPro Hero 11'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'GoPro 11 prices by country, around the world, October 2022'
+        categoryname.innerText = 'GoPro 11 prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem13')
         categoryitem.classList.add("itemselected")
     }else if(id == 14){
@@ -2550,28 +2550,28 @@ window.addEventListener("load", function(){
         var title = document.getElementById('prodtitle')
         title.innerText = 'iPhone 14, 128GB prices'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'iPhone 14 prices by country, around the world, October 2022'
+        categoryname.innerText = 'iPhone 14 prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem16')
         categoryitem.classList.add("itemselected")
     }else if(id == 17){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Ipad Pro 11, 128GB'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Ipad prices by country, around the world, October 2022'
+        categoryname.innerText = 'Ipad prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem17')
         categoryitem.classList.add("itemselected")
     }else if(id == 18){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Apple Watch 8, 41mm'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Apple Watch 8 prices by country, around the world, October 2022'
+        categoryname.innerText = 'Apple Watch 8 prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem18')
         categoryitem.classList.add("itemselected")
     }else if(id == 19){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Macbook Pro 14, 512 GB'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Macbook prices by country, around the world, May 2022'
+        categoryname.innerText = 'Macbook prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem19')
         categoryitem.classList.add("itemselected")
     }else if(id == 20){
@@ -2585,84 +2585,84 @@ window.addEventListener("load", function(){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Playstation 5 Standard Edition'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Playstation 5 prices by country, around the world, May 2022'
+        categoryname.innerText = 'Playstation 5 prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem21')
         categoryitem.classList.add("itemselected")
     }else if(id == 22){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Apple prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Apples prices by country, around the world, March 2023'
+        categoryname.innerText = 'Apples prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem22')
         categoryitem.classList.add("itemselected")
     }else if(id == 23){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Banana prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Bananas prices by country, around the world, March 2023'
+        categoryname.innerText = 'Bananas prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem23')
         categoryitem.classList.add("itemselected")
     }else if(id == 24){
         var title = document.getElementById('prodtitle')
         title.innerText = 'White beans prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Beans prices by country, around the world, March 2023'
+        categoryname.innerText = 'Beans prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem24')
         categoryitem.classList.add("itemselected")
     }else if(id == 25){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Carrots prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Carrots prices by country, around the world, March 2023'
+        categoryname.innerText = 'Carrots prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem25')
         categoryitem.classList.add("itemselected")
     }else if(id == 26){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Onion prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Onions prices by country, around the world, March 2023'
+        categoryname.innerText = 'Onions prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem26')
         categoryitem.classList.add("itemselected")
     }else if(id == 27){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Potato prices, 1 kg'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Potatoes prices by country, around the world, March 2023'
+        categoryname.innerText = 'Potatoes prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem27')
         categoryitem.classList.add("itemselected")
     }else if(id == 28){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Bottled Water prices 1.5L'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Bottled water prices by country, around the world, September 2022'
+        categoryname.innerText = 'Bottled water prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem28')
         categoryitem.classList.add("itemselected")
     }else if(id == 29){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Coca-Cola prices, 0.5 liter'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Coca-Cola 0.5L prices by country, around the world, September 2022'
+        categoryname.innerText = 'Coca-Cola 0.5L prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem29')
         categoryitem.classList.add("itemselected")
     }else if(id == 30){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Nescafe Gold prices, 200 g'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Coffee prices by country, around the world, September 2022'
+        categoryname.innerText = 'Coffee prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem30')
         categoryitem.classList.add("itemselected")
     }else if(id == 31){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Orange Juice prices 1L'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Orange juice prices by country, around the world, September 2022'
+        categoryname.innerText = 'Orange juice prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem31')
         categoryitem.classList.add("itemselected")
     }else if(id == 32){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Red Bull prices /0.25L'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Red Bull prices by country, around the world, September 2022'
+        categoryname.innerText = 'Red Bull prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem32')
         categoryitem.classList.add("itemselected")
     }

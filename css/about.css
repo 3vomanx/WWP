@@ -133,9 +133,7 @@ body{
     flex-direction: column;
     align-items: center;
     bottom: 0;
-    position:absolute;
     box-shadow: 5px 5px 20px black;
-    z-index: 9999;
 }
 
 .footercontent{
@@ -167,6 +165,11 @@ body{
 .footermenu ul li a:hover{
     text-decoration: none;
     color: var(--headeryellow);
+}
+
+.copyright{
+    color: white;
+    margin-top: 0.5%;
 }
 
 @media screen and (max-width: 744px){

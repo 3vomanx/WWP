@@ -351,7 +351,7 @@ body{
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 1vw;
+        font-size: 17px;
     }
     
     .footermenu ul li a{
@@ -396,7 +396,7 @@ body{
 
     .marker{
         width: 65%;
-        height: 0.3vh;
+        height: 0.4vh;
         background: #e2bb04;
         margin: 0 auto;
     }
@@ -407,13 +407,13 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 5% 0 0 13%;
+        margin: 13% 0 0 13%;
     }
 
     .productCagetories{
         width: 100%;
-        height: 225vh;
-        margin: 4% 0 0 0;
+        height: 285vh;
+        margin: 7% 0 0 0;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -469,7 +469,8 @@ body{
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 1vw;
+        font-size: 17px;
+        font-weight: 500;
     }
     
     .footermenu ul li a{
@@ -531,7 +532,7 @@ body{
     .productCagetories{
         width: 90%;
         height: 285vh;
-        margin: 8% 0 0 0;
+        margin: 7% 0 0 0;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -564,7 +565,7 @@ body{
     }
     
     .footermenu{
-        width: 30%;
+        width: 35%;
     }
     
     .footermenu ul{
@@ -574,7 +575,8 @@ body{
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 1vw;
+        font-size: 17px;
+        font-weight: 500;
     }
     
     .footermenu ul li a{
@@ -592,6 +594,13 @@ body{
 
 @media screen and (max-width: 1024px){
 
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+
     .logospace a{
         font-size: 2.1vw;
     }
@@ -603,27 +612,26 @@ body{
     }
 
     .logospace img{
-        width: 55%;
+        width: 60%;
         height: auto;
-        cursor: pointer;
     }
     
     .menul{
-        width: 65%;
-        margin: 0 0 0 1%;
+        width: 75%;
+        margin: 0 0 0 2%;
     }
 
     .menul ul a{
         text-decoration: none;
         color: #fff;
         transition: all 0.2s ease;
-        font-size: 1.6vw;
+        font-size: 1.7vw;
         font-weight: 700;
     }
 
     .marker{
         width: 65%;
-        height: 0.3vh;
+        height: 0.4vh;
         background: #e2bb04;
         margin: 0 auto;
     }
@@ -635,19 +643,18 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        bottom: 0;
         box-shadow: 5px 5px 20px black;
-        margin-bottom: 0;
-        z-index: 9999;
     }
     
     .footercontent{
-        width: 70%;
+        width: 80%;
         height: 5vh;
         margin: 0.4% 0 0 0;
     }
     
     .footermenu{
-        width: 30%;
+        width: 38%;
     }
     
     .footermenu ul{
@@ -657,7 +664,8 @@ body{
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 1vw;
+        font-size: 17px;
+        font-weight: 500;
     }
     
     .footermenu ul li a{
@@ -670,14 +678,17 @@ body{
         text-decoration: none;
         color: var(--headeryellow);
     }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
+    }
 
 }
 
-@media screen and (max-width: 745px){
+@media screen and (max-width: 768px){
 
     .headerbar{
-        position: absolute;
-        top: 0;
         position: fixed;
         z-index: 9999;
     }
@@ -721,7 +732,16 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 5% 0 0 8%;
+        margin: 10% 0 0 8%;
+    }
+
+    .productCagetories{
+        width: 100%;
+        height: 285vh;
+        margin: 13% 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .sidepanelbtn{
@@ -747,12 +767,15 @@ body{
         transition: 0.5s;
         margin: -2.6% 0 0 0;
         position: fixed;
+        z-index: 1;
+        bottom: 0;
     }
 
     .sidepushed{
         width: 30%;
         height: 100vh;
         background: #ec5402;
+        z-index: 1;
         transform: translate(235%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
@@ -787,7 +810,7 @@ body{
     
     nav{
         width: 100%;
-        margin: -20% 0 0 0;
+        margin: 62% 0 0 0;
     }
 
     .content{
@@ -803,19 +826,19 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        bottom: 0;
         box-shadow: 5px 5px 20px black;
-        margin-bottom: 0;
-        z-index: 9999;
+        position: relative;
     }
     
     .footercontent{
-        width: 70%;
+        width: 80%;
         height: 5vh;
-        margin: 0.4% 0 0 0;
+        margin: 1% 0 0 0;
     }
     
     .footermenu{
-        width: 30%;
+        width: 49%;
     }
     
     .footermenu ul{
@@ -824,8 +847,8 @@ body{
         text-decoration: none;
         list-style: none;
         justify-content: space-between;
-        flex-wrap: wrap;
-        font-size: 1vw;
+        font-size: 17px;
+        font-weight: 500;
     }
     
     .footermenu ul li a{
@@ -837,6 +860,11 @@ body{
     .footermenu ul li a:hover{
         text-decoration: none;
         color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.9%;
     }
 }
 
@@ -912,10 +940,10 @@ body{
     }
 
     .sidepanelbtn{
-        margin:0 0 0 61.5%;
+        margin:0 0 0 60%;
         transition: all 0.6s ease;
     }
-    
+
     .sidepanelbtn .main{
         color: white;
         cursor: pointer;
@@ -930,11 +958,11 @@ body{
         width: 40%;
         height: 100vh;
         background: #ec5402;
-        z-index: 1;
+        z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
         margin: -2.6% 0 0 0;
-        position: fixed;
+        bottom: 0;
     }
 
     .sidepushed{
@@ -948,7 +976,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 32%;
+        margin:0 0 0 33%;
     }
     
     .sidePanel ul{
@@ -972,7 +1000,7 @@ body{
     
     nav{
         width: 100%;
-        margin: 40% 0 0 0;
+        margin: 80% 0 0 0;
     }
 
     .footer{
@@ -982,9 +1010,9 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        bottom: 0;
         box-shadow: 5px 5px 20px black;
-        margin-bottom: 0;
-        z-index: 9999;
+        position: relative;
     }
     
     .footercontent{
@@ -994,7 +1022,8 @@ body{
     }
     
     .footermenu{
-        width: 45%;
+        width: 95%;
+        margin: 0 0 0 4%;
     }
     
     .footermenu ul{
@@ -1004,7 +1033,8 @@ body{
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 14px;
+        font-size: 14.4px;
+        margin-top: 6%
     }
     
     .footermenu ul li a{
@@ -1019,13 +1049,13 @@ body{
     }
 
     .copyright{
-        margin-top: 5%;
-        font-size: 13px;
         color: white;
+        font-size: 13px;
+        margin-top: 5%;
     }
 }
 
-@media screen and (min-width: 745px){
+@media screen and (min-width: 769px){
     .sidePanel{
         display: none;
     }
