@@ -8,12 +8,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
 }
 
-*::-webkit-scrollbar{
+body::-webkit-scrollbar{
     display: none;
-}
+}   
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--maincolor); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff7930; 
+  }
+
 
 html{
     scroll-behavior: smooth;
@@ -138,6 +161,7 @@ html{
     width:25%;
     height: 70vh;
     overflow: scroll;
+    overflow-x: hidden;
     background: white;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
@@ -219,6 +243,7 @@ html{
     height: 64vh;
     border: none;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 table{
@@ -285,6 +310,11 @@ td, th {
 .footermenu ul li a:hover{
     text-decoration: none;
     color: var(--headeryellow);
+}
+
+.copyright{
+    color: white;
+    margin-top: 0.5%;
 }
 
 @media screen and (max-width: 1600px){

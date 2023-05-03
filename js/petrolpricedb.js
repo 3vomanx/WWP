@@ -471,32 +471,38 @@ var petrolsdb = [naturalgasdb,dieseldb,gasoline95db,lpgdb]
           if (next%perrow==0 && next!=petrolsdb.length) {
             row = table.insertRow();
         }
+
+        $(document).ready(function(){
+            $(".headerbar img").click(function(){
+                window.location.href= 'index.html'
+            })
+        })
     }
 
     if(id == 0){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Natural Gas Prices'
+        title.innerText = 'Natural Gas Prices /kWh'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Natural Gas prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem')
         categoryitem.classList.add("itemselected")
     }else if(id == 1){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Diesel Prices'
+        title.innerText = 'Diesel Prices /Liter'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Diesel prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem1')
         categoryitem.classList.add("itemselected")
     }else if(id == 2){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Gasoline Prices'
+        title.innerText = 'Gasoline Prices /Liter'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Gasoline prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem2')
         categoryitem.classList.add("itemselected")
     }else if(id == 3){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'LPG Prices'
+        title.innerText = 'LPG Prices /Liter'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'LPG prices by country, around the world, 2023'
         var categoryitem = document.getElementById('categoryitem3')

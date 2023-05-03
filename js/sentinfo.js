@@ -2426,6 +2426,12 @@ window.addEventListener("load", function(){
       if (next%perrow==0 && next!=wholedb.length) {
         row = table.insertRow();
     }
+
+    $(document).ready(function(){
+        $(".headerbar img").click(function(){
+            window.location.href= 'index.html'
+        })
+    })
 }
 
     if(id == 0){
@@ -2626,7 +2632,7 @@ window.addEventListener("load", function(){
         categoryitem.classList.add("itemselected")
     }else if(id == 28){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Bottled water prices'
+        title.innerText = 'Bottled Water prices 1.5L'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Bottled water prices by country, around the world, September 2022'
         var categoryitem = document.getElementById('categoryitem28')
@@ -2647,19 +2653,18 @@ window.addEventListener("load", function(){
         categoryitem.classList.add("itemselected")
     }else if(id == 31){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Orange juice prices'
+        title.innerText = 'Orange Juice prices 1L'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Orange juice prices by country, around the world, September 2022'
         var categoryitem = document.getElementById('categoryitem31')
         categoryitem.classList.add("itemselected")
     }else if(id == 32){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Red Bull prices'
+        title.innerText = 'Red Bull prices /0.25L'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Red Bull prices by country, around the world, September 2022'
         var categoryitem = document.getElementById('categoryitem32')
         categoryitem.classList.add("itemselected")
     }
-
 });
 

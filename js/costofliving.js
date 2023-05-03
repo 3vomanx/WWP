@@ -606,111 +606,119 @@ var coldb = [africadb,caribbeandb,centralamericadb,northernamerica,southamericad
           if (next%perrow==0 && next!=coldb.length) {
             row = table.insertRow();
         }
+
     }
+
+    $(document).ready(function(){
+        $(".headerbar img").click(function(){
+            window.location.href= 'index.html'
+        })
+    })
+
 
     if(id == 0){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Africa'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Africa per person/month 2023'
+        categoryname.innerText = 'Cost of living in Africa per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem0')
         categoryitem.classList.add("itemselected")
     }else if(id == 1){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Caribbean'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Caribbean per person/month 2023'
+        categoryname.innerText = 'Cost of living in Caribbean per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem1')
         categoryitem.classList.add("itemselected")
     }else if(id == 2){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Central America'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Central America per person/month 2023'
+        categoryname.innerText = 'Cost of living in Central America per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem2')
         categoryitem.classList.add("itemselected")
     }else if(id == 3){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Northern America'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Northern America per person/month 2023'
+        categoryname.innerText = 'Cost of living in Northern America per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem3')
         categoryitem.classList.add("itemselected")
     }else if(id == 4){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in South America'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in South America per person/month 2023'
+        categoryname.innerText = 'Cost of living in South America per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem4')
         categoryitem.classList.add("itemselected")
     }else if(id == 5){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Central Asia'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Central Asia per person/month 2023'
+        categoryname.innerText = 'Cost of living in Central Asia per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem5')
         categoryitem.classList.add("itemselected")
     }else if(id == 6){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Eastern Asia'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Eastern Asia per person/month 2023'
+        categoryname.innerText = 'Cost of living in Eastern Asia per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem6')
         categoryitem.classList.add("itemselected")
     }else if(id == 7){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in South-Eastern Asia'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in South-Eastern Asia per person/month 2023'
+        categoryname.innerText = 'Cost of living in South-Eastern Asia per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem7')
         categoryitem.classList.add("itemselected")
     }else if(id == 8){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Southern Asia'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Southern Asia per person/month 2023'
+        categoryname.innerText = 'Cost of living in Southern Asia per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem8')
         categoryitem.classList.add("itemselected")
     }else if(id == 9){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Western Asia'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Western Asia per person/month 2023'
+        categoryname.innerText = 'Cost of living in Western Asia per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem9')
         categoryitem.classList.add("itemselected")
     }else if(id == 10){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Eastern Europe'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Eastern Europe per person/month 2023'
+        categoryname.innerText = 'Cost of living in Eastern Europe per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem10')
         categoryitem.classList.add("itemselected")
     }else if(id == 11){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Northern Europe'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Northern Europe per person/month 2023'
+        categoryname.innerText = 'Cost of living in Northern Europe per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem11')
         categoryitem.classList.add("itemselected")
     }else if(id == 12){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Southern Europe'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Southern Europe per person/month 2023'
+        categoryname.innerText = 'Cost of living in Southern Europe per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem12')
         categoryitem.classList.add("itemselected")
     }else if(id == 13){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Western Europe'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Western Europe per person/month 2023'
+        categoryname.innerText = 'Cost of living in Western Europe per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem13')
         categoryitem.classList.add("itemselected")
     }else if(id == 14){
         var title = document.getElementById('prodtitle')
         title.innerText = 'Cost of living in Oceania'
         var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'Cost of living in Oceania per person/month 2023'
+        categoryname.innerText = 'Cost of living in Oceania per person/month 2023 (without rent)'
         var categoryitem = document.getElementById('categoryitem14')
         categoryitem.classList.add("itemselected")
     }

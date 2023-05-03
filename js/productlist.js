@@ -18,3 +18,9 @@ $(document).ready(function(){
 $(document).on('click', '.listitem', function(){
     localStorage.setItem("ClickedId", this.id);
 });
+
+$(document).ready(function(){
+    $(".headerbar img").click(function(){
+        window.location.href= 'index.html'
+    })
+})

@@ -11,9 +11,23 @@
     font-family: 'Poppins', sans-serif;    
 }
 
-*::-webkit-scrollbar{
-    display: none;
-}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: var(--maincolor); 
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff7930; 
+  }
 
 html{
     scroll-behavior: smooth;
@@ -34,8 +48,7 @@ html{
     flex-direction: row;
     align-items: center;
     box-shadow: 5px 2px 35px black;
-    position: fixed;
-    z-index: 9999;
+    position: relative;
 }
 
 .logospace{
@@ -138,7 +151,6 @@ html{
 .categorycontainer{
     width:25%;
     height: 70vh;
-    overflow: scroll;
     background: white;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
@@ -220,6 +232,7 @@ html{
     height: 64vh;
     border: none;
     overflow: scroll;
+    overflow-x: hidden;
 }
 
 table{
@@ -300,14 +313,12 @@ td, th {
     color: var(--headeryellow);
 }
 
-@media screen and (max-width: 1600px){
+.copyright{
+    margin-top: 0.5%;
+    color: white;
+}
 
-    .headerbar{
-        position: absolute;
-        top: 0;
-        position: fixed;
-        z-index: 9999;
-    }
+@media screen and (max-width: 1600px){
 
     .logospace{
         width: 15%;
@@ -355,13 +366,6 @@ td, th {
 }
 
 @media screen and (max-width: 1440px){
-
-    .headerbar{
-        position: absolute;
-        top: 0;
-        position: fixed;
-        z-index: 9999;
-    }
 
     .areatitle{
         width: 70%;
@@ -421,13 +425,6 @@ td, th {
 }
 
 @media screen and (max-width: 1280px){
-
-    .headerbar{
-        position: absolute;
-        top: 0;
-        position: fixed;
-        z-index: 9999;
-    }
 
     .logospace{
         width: 15%;
@@ -489,13 +486,6 @@ td, th {
 
 @media screen and (max-width: 1024px){
 
-    .headerbar{
-        position: absolute;
-        top: 0;
-        position: fixed;
-        z-index: 9999;
-    }
-
     .logospace a{
         font-size: 2.1vw;
     }
@@ -538,13 +528,6 @@ td, th {
 }
 
 @media screen and (max-width: 744px){
-
-    .headerbar{
-        position: absolute;
-        top: 0;
-        position: fixed;
-        z-index: 9999;
-    }
 
     .logospace{
         width: 15%;
@@ -595,9 +578,8 @@ td, th {
 @media screen and (max-width: 376px){
 
     .headerbar{
-        position: absolute;
-        top: 0;
         position: fixed;
+        top: 0;
         z-index: 9999;
     }
 
@@ -757,18 +739,6 @@ td, th {
         display: table-row;
         vertical-align: inherit;
         border-color: inherit;
-    }
-
-    td:first-child{
-        width: 25%;
-    }
-    
-    td:nth-child(2){
-        width: 45%;
-    }
-    
-    td:nth-child(3){
-        width: 17%;
     }
     
     td, th {

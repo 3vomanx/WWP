@@ -54,6 +54,7 @@ body{
 .logospace img{
     width: 50%;
     height: auto;
+    cursor: pointer;
 }
 
 .logospace a{
@@ -235,6 +236,7 @@ body{
     .logospace img{
         width: 30%;
         height: auto;
+        cursor: pointer;
     }
     
     .menul{
@@ -376,6 +378,7 @@ body{
     .logospace img{
         width: 40%;
         height: auto;
+        cursor: pointer;
     }
     
     .menul{
@@ -493,6 +496,7 @@ body{
     .logospace img{
         width: 45%;
         height: auto;
+        cursor: pointer;
     }
     
     .menul{
@@ -601,6 +605,7 @@ body{
     .logospace img{
         width: 55%;
         height: auto;
+        cursor: pointer;
     }
     
     .menul{
@@ -693,6 +698,7 @@ body{
     .logospace img{
         width: 70%;
         height: auto;
+        cursor: pointer;
     }
 
     .menul{
@@ -854,6 +860,7 @@ body{
     .logospace img{
         width: 120%;
         height: auto;
+        cursor: pointer;
     }
 
     .menul{

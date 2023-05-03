@@ -51,3 +51,9 @@ $(document).ready(function(){
         $(".sidepanelbtn").toggleClass("sidebtnpushed")
     })
 })
+
+$(document).ready(function(){
+    $(".headerbar img").click(function(){
+        window.location.href= 'index.html'
+    })
+})
