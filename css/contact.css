@@ -53,6 +53,7 @@ body{
 .logospace img{
     width: 50%;
     height: auto;
+    cursor: pointer;
 }
 
 .logospace a{
@@ -780,7 +781,7 @@ body{
 }
 
 
-@media screen and (min-width: 745px){
+@media screen and (min-width: 769px){
     .sidePanel{
         display: none;
     }

@@ -51,6 +51,7 @@ html{
 .logospace img{
     width: 50%;
     height: auto;
+    cursor: pointer;
 }
 
 .menul{

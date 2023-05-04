@@ -51,6 +51,7 @@ body{
 .logospace img{
     width: 50%;
     height: auto;
+    cursor: pointer;
 }
 
 .logospace a{
@@ -121,10 +122,6 @@ body{
     font-size: 20px;
 }
 
-.copyright{
-    color: white;
-}
-
 .footer{
     width: 100%;
     height: 10vh;
@@ -187,6 +184,15 @@ body{
         margin: 0 0 0 2%;
     }
 
+    .content{
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        line-height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
     .logospace img{
         width: 30%;
         height: auto;
@@ -204,9 +210,220 @@ body{
         font-size: 1.1vw;
         font-weight: 700;
     }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+        position: absolute;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 30%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+    }
 }
 
-@media screen and (max-width: 744px){
+@media screen and (max-width: 1440px){
+    .menul ul a{
+        font-size: 1.3vw;
+    }
+
+    .menul{
+        width: 55%;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+        position: absolute;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 30%;
+        height: auto;
+    }
+    
+    .menul{
+        width: 65%;
+        margin: 0 0 0 0%;
+    }
+    
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.4vw;
+        font-weight: 700;
+    }
+    
+    .footermenu{
+        width: 35%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .headerbar{
+        position: absolute;
+        top: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .logospace a{
+        font-size: 2.1vw;
+    }
+
+    .logospace{
+        width: 15%;
+        background: 8vh;
+        margin: 0 0 0 2%;
+    }
+
+    .logospace img{
+        width: 60%;
+        height: auto;
+    }
+    
+    .menul{
+        width: 75%;
+        margin: 0 0 0 2%;
+    }
+
+    .menul ul a{
+        text-decoration: none;
+        color: #fff;
+        transition: all 0.2s ease;
+        font-size: 1.7vw;
+        font-weight: 700;
+    }
+
+    .content{
+        width: 100%;
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 45%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
+    }
+}
+
+@media screen and (max-width: 769px){
 
     .headerbar{
         position: absolute;
@@ -216,15 +433,6 @@ body{
 
     .categorybox{
         height: 20vh;
-    }
-
-    .categorytext{
-        height: 20vh;
-        font-size: 3vw;
-    }
-
-    .content{
-        margin: 15% 0 0 0 ;
     }
 
     .logospace{
@@ -255,13 +463,18 @@ body{
         font-weight: 700;
     }
 
-    .list{
-        width: 60%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 5% 0 0 8%;
+    .contacttxt{
+        width: 100%;
+        margin: 10% 15%;
+    }
+    
+    .contacttxt h1{
+        width: 90%;
+        font-size: 35px;
+    }
+    
+    .contacttxt span{
+        font-size: 19px;
     }
 
     .sidepanelbtn{
@@ -329,9 +542,223 @@ body{
     
     nav{
         width: 100%;
-        margin: -5% 0 0 0;
+        margin: 62% 0 0 0;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 5px 20px black;
+        position: absolute;
+        z-index: 9999;
+    }
+    
+    .footercontent{
+        width: 80%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 50%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .footermenu ul li a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+    }
+    
+    .footermenu ul li a:hover{
+        text-decoration: none;
+        color: var(--headeryellow);
+    }
+    
+    .copyright{
+        color: white;
+        margin-top: 1.5%;
     }
 }
+
+@media screen and (max-width: 376px){
+
+    .headerbar{
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+    }
+
+    .categorybox{
+        height: 20vh;
+    }
+
+    .categorytext{
+        height: 20vh;
+        font-size: 3vw;
+    }
+
+    .logospace{
+        margin: 0 0 0 12%;
+    }
+    
+    .logospace a{
+        font-size: 6vw;
+    }
+
+    .logospace img{
+        width: 100%;
+        height: auto;
+    }
+
+    .abouttxt{
+        width: 90%;
+        margin: 10% 15%;
+        user-select: none;
+    }
+    
+    .abouttxt h1{
+        width: 100%;
+        font-size: 20px;
+        margin-top: 15%;
+    }
+    
+    .abouttxt p{
+        font-size: 16px;
+    }
+
+    .content{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menul{
+        display: none;
+    }
+
+    .sidepanelbtn{
+        margin:0 0 0 60%;
+        transition: all 0.6s ease;
+    }
+
+    .sidepanelbtn .main{
+        color: white;
+        cursor: pointer;
+        transition: 0.4s ease;
+    }
+    
+    .sidepanelbtn .main:hover{
+        color: var(--headeryellow);
+    }
+    
+    .sidePanel{
+        width: 40%;
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(340%, 0%);
+        transition: 0.8s;
+        margin: -2.6% 0 0 0;
+        bottom: 0;
+    }
+
+    .sidepushed{
+        height: 100vh;
+        background: #ec5402;
+        z-index: 1000;
+        transform: translate(150%, 0%);
+        transition: 0.5s;
+        margin: -2.6% 0 0 0;
+        position: fixed;
+    }
+
+    .sidebtnpushed{
+        margin:0 0 0 33%;
+    }
+    
+    .sidePanel ul{
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 30% 0 0 5%;
+    }
+    
+    .sidePanel ul li a{
+        margin: 0 0 0 0%;
+        font-size: 3.7vw;
+        transition: all 0.2s ease;
+        font-weight: 500;
+    }
+    
+    .sidePanel ul li a:hover{
+        color: var(--headeryellow);
+    }
+    
+    nav{
+        width: 100%;
+        margin: 80% 0 0 0;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+        background:var(--maincolor);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+        box-shadow: 5px 5px 20px black;
+        position: relative;
+        z-index: 9999;
+    }
+    
+    .footercontent{
+        width: 70%;
+        height: 5vh;
+        margin: 0.4% 0 0 0;
+    }
+    
+    .footermenu{
+        width: 100%;
+        margin: 0 0 0 2%;
+    }
+    
+    .footermenu ul{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-size: 15px;
+        margin-top: 6%
+    }
+
+    .copyright{
+        color: white;
+        font-size: 13px;
+        margin-top: 5%;
+    }
+}
+
 
 @media screen and (min-width: 769px){
     .sidePanel{

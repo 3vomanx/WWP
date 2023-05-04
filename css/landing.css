@@ -53,6 +53,7 @@ body{
 .logospace img{
     width: 50%;
     height: auto;
+    cursor: pointer;
 }
 
 .logospace a{
