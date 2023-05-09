@@ -280,6 +280,7 @@ td, th {
     align-items: center;
     bottom: 0;
     box-shadow: 5px 5px 20px black;
+    position: relative;
 }
 
 .footercontent{
@@ -315,7 +316,6 @@ td, th {
 
 .copyright{
     color: white;
-    margin-top: 0.5%;
 }
 
 @media screen and (max-width: 1600px){

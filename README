@@ -35,15 +35,6 @@ Apple
 
 privacy policy, terms and conditions, about page, contact pageებია ასაწყობი
 
-
-   // Remove itemselected class from all items
-    categoryItems.forEach(function (item) {
-      item.querySelector("a").classList.remove("itemselected");
-    });
-
-    // Add itemselected class to clicked item
-    this.querySelector("a").classList.add("itemselected");
-
     საიტი რო გუგლთან არ დავაკავშიროთ ანალიტიკას სად ვნახავ 
     privacy policy და terms რო დავაგენერიროთ გუგლი გაჭედავს თუ არა cookiesები გვჭირდება თუარა თუ კი საიდან უნდა დავამატოთ და
     რა პრინციპით იწერება privacy და terms

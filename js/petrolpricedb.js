@@ -474,7 +474,8 @@ var petrolsdb = [naturalgasdb,dieseldb,gasoline95db,lpgdb]
 
         $(document).ready(function(){
             $(".headerbar img").click(function(){
-                window.location.href= 'index.html'
+                window.location.href= '/index.html'
+                localStorage.clear("ClickedId", this.id)
             })
         })
     }

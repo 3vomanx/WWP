@@ -611,7 +611,8 @@ var coldb = [africadb,caribbeandb,centralamericadb,northernamerica,southamericad
 
     $(document).ready(function(){
         $(".headerbar img").click(function(){
-            window.location.href= 'index.html'
+            window.location.href= '/index.html'
+            localStorage.clear("ClickedId", this.id)
         })
     })
 

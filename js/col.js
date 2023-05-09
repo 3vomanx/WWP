@@ -35,7 +35,6 @@ $(document).ready(function(){
 
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
-    window.location.href= 'Costs_Of_Living.html'
 });
 
 
@@ -54,6 +53,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".headerbar img").click(function(){
-        window.location.href= 'index.html'
+        window.location.href= '/index.html'
     })
 })

@@ -107,6 +107,10 @@ body{
     align-items: center;
 }
 
+.footermenu ul .selected{
+    color: var(--headeryellow);
+}
+
 .abouttxt{
     width: 60%;
     margin: 10% 15%;

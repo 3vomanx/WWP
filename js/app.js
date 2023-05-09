@@ -35,12 +35,10 @@ $(document).ready(function(){
 
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
-    window.location.href= 'Rankings.html'
 });
 
 $(document).on('click', '.categorybox', function(){
     localStorage.setItem("ClickedId", this.id);
-    window.location.href= 'Rankings.html'
 });
 
 

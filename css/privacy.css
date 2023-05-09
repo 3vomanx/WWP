@@ -130,6 +130,10 @@ body{
     align-items: center;
 }
 
+.footermenu ul .selected{
+    color: var(--headeryellow);
+}
+
 .privacytxt{
     width: 60%;
     height: 70vh;

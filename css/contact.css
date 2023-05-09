@@ -109,6 +109,10 @@ body{
     align-items: center;
 }
 
+.footermenu ul .selected{
+    color: var(--headeryellow);
+}
+
 .contacttxt{
     width: 60%;
     margin: 10% 15%;

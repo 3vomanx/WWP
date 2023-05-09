@@ -11,7 +11,6 @@ $(document).ready(function(){
 
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
-    window.location.href= 'Petrol_Price.html'
 });
 
 
