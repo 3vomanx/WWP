@@ -37,11 +37,6 @@ $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
 });
 
-$(document).on('click', '.categorybox', function(){
-    localStorage.setItem("ClickedId", this.id);
-});
-
-
 $(document).ready(function(){
     $(".main").click(function(){
         $(".main").toggleClass("fa-bars")
@@ -57,6 +52,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $(".headerbar img").click(function(){
-        window.location.href= 'index.html'
+        window.location.href= 'https://worldwideprices.com/'
     })
 })

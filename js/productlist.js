@@ -21,6 +21,6 @@ $(document).on('click', '.listitem', function(){
 
 $(document).ready(function(){
     $(".headerbar img").click(function(){
-        window.location.href= 'index.html'
+        window.location.href= 'https://worldwideprices.com/'
     })
 })

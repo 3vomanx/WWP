@@ -474,7 +474,7 @@ var petrolsdb = [naturalgasdb,dieseldb,gasoline95db,lpgdb]
 
         $(document).ready(function(){
             $(".headerbar img").click(function(){
-                window.location.href= '/index.html'
+                window.location.href= 'https://worldwideprices.com/'
                 localStorage.clear("ClickedId", this.id)
             })
         })
