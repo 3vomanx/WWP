@@ -5,6 +5,7 @@
 
 
 *{
+    transition: all 0.3s ease;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,13 +18,14 @@ body::-webkit-scrollbar{
 
 /* width */
 ::-webkit-scrollbar {
+    background: var(--tableback);
     width: 10px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
+    background: var(--tableback);
+    border-radius: 15px;
   }
    
   /* Handle */
@@ -34,25 +36,67 @@ body::-webkit-scrollbar{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #ff7930; 
+    background: var(--scrollbarhover); 
   }
 
 
-html{
+html{ 
     scroll-behavior: smooth;
 }
 
 :root {
+    --scrollbarhover: #ff7930;
+    --maincolor: #fe5f0a;
     --headeryellow: #FFCA08;
     --headermenu: #221F21;
     --black: #000000;
-    --maincolor: #fe5f0a;
+    --white: #fff;
+    --contentbackgroundcolor: #f1f3f6;
+    --areatitle: black;
+    --textcolor: #fff;
+    --tablelines: #dddddd;
+    --tableback: #fff;
+    --tabletext: black;
+    --itemselected: #fe5f0a;
+}
+
+.dark-mode{
+    --scrollbarhover:#FFCA08;
+    --maincolor: #585858;
+    --headeryellow: #FFCA08;
+    --textcolor: #D6D6D7;
+    --contentbackgroundcolor: #35363A;
+    --aretitle: #dddddd;
+    --tablelines: #646464;
+    --tableback: #3b3b3b;
+    --tabletext: #dddddd;
+    --itemselected: #FFCA08;
+}
+
+.darkicon{
+    cursor: pointer;
+}
+
+.fa-sun{
+    color: white;
+}
+
+.fa-sun:hover{
+    color: var(--headeryellow);
+}
+
+.fa-moon{
+    color: white;
+}
+
+.fa-moon:hover{
+    color: black;
 }
 
 .headerbar{
     width: 100%;
     height: 9.5vh;
-    background: #fe5f0a;
+    background: var(--maincolor);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -186,6 +230,7 @@ html{
 .categorycontainer ul li{
     list-style: none;
     margin: 0 0 0 5%;
+    transition: all 0.0s ease;
 }
     
 .categorycontainer ul li a{
@@ -246,6 +291,7 @@ html{
     border: none;
     overflow: scroll;
     overflow-x: hidden;
+    background: var(--tableback);
 }
 
 table{

@@ -32,3 +32,14 @@ $(document).ready(function(){
         window.location.href= 'https://worldwideprices.com/'
     })
 })
+
+$(document).ready(function(){
+    $(".darkicon").click(function(){
+        $("body").toggleClass("dark-mode");
+        if($("body").hasClass("dark-mode")){
+            $(".darkicon").attr("class", "darkicon fa fa-light fa-sun fa-2x");
+        }else{
+            $(".darkicon").attr("class", "darkicon fa fa-light fa-moon fa-2x"); 
+        }
+  });
+});

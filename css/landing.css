@@ -3,6 +3,7 @@
 
 
 *{
+    transition: all 0.5s ease;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,16 +23,72 @@ body{
 }
 
 :root {
+    --maincolor: #fe5f0a;
     --headeryellow: #FFCA08;
     --headermenu: #221F21;
     --black: #000000;
-    --maincolor: #fe5f0a;
+    --white: #fff;
+    --contentbackgroundcolor: #f1f3f6;
+    --areatitle: black;
+    --textcolor: black;
+    --tablelines: #dddddd;
+    --tableback: #fff;
+    --tabletext: black;
+    --itemselected: #fe5f0a;
+    --categorytitle: white;
+}
+
+.dark-mode{
+    --maincolor: #585858;
+    --headeryellow: #FFCA08;
+    --textcolor: #D6D6D7;
+    --contentbackgroundcolor: #35363A;
+    --aretitle: #dddddd;
+    --tablelines: #646464;
+    --tableback: #3b3b3b;
+    --tabletext: #dddddd;
+    --itemselected: #FFCA08;
+    --categorytitle: #dddddd;
+    .darkicon1{
+        color: white;
+    }
+
+    .darkicon1:hover{
+        color: var(--headeryellow);
+    }
+}
+
+.darkicon{
+    cursor: pointer;
+}
+
+.fa-sun{
+    color: white;
+}
+
+.fa-sun:hover{
+    color: var(--headeryellow);
+}
+
+.fa-moon:hover{
+    color: black;
+}
+
+.darkicon1{
+    transition: all 0.3s ease;
+    font-size: 35px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.darkicon1:hover{
+    color: black;
 }
 
 .headerbar{
     width: 100%;
     height: 9.5vh;
-    background: #fe5f0a;
+    background: var(--maincolor);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -109,6 +166,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 5%;
+    background: var(--contentbackgroundcolor);
 }
 
 .gridcontent{
@@ -123,7 +181,7 @@ body{
 .categorybox{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
     position: relative;
 }

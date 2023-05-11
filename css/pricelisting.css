@@ -5,6 +5,7 @@
 
 
 *{
+    transition:all 0.3s ease;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,13 +18,14 @@ body::-webkit-scrollbar{
 
 /* width */
 ::-webkit-scrollbar {
+    background: var(--tableback);
     width: 10px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
-    border-radius: 10px;
+    background: var(--tableback);
+    border-radius: 15px;
   }
    
   /* Handle */
@@ -34,25 +36,67 @@ body::-webkit-scrollbar{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #ff7930; 
+    background: var(--scrollbarhover); 
   }
 
 
-html{
+html{ 
     scroll-behavior: smooth;
 }
 
 :root {
+    --scrollbarhover: #ff7930;
+    --maincolor: #fe5f0a;
     --headeryellow: #FFCA08;
     --headermenu: #221F21;
     --black: #000000;
-    --maincolor: #fe5f0a;
+    --white: #fff;
+    --contentbackgroundcolor: #f1f3f6;
+    --areatitle: black;
+    --textcolor: #fff;
+    --tablelines: #dddddd;
+    --tableback: #fff;
+    --tabletext: black;
+    --itemselected: #fe5f0a;
+}
+
+.dark-mode{
+    --scrollbarhover:#FFCA08;
+    --maincolor: #585858;
+    --headeryellow: #FFCA08;
+    --textcolor: #D6D6D7;
+    --contentbackgroundcolor: #35363A;
+    --aretitle: #dddddd;
+    --tablelines: #646464;
+    --tableback: #3b3b3b;
+    --tabletext: #dddddd;
+    --itemselected: #FFCA08;
+}
+
+.darkicon{
+    cursor: pointer;
+}
+
+.fa-sun{
+    color: white;
+}
+
+.fa-sun:hover{
+    color: var(--headeryellow);
+}
+
+.fa-moon{
+    color: white;
+}
+
+.fa-moon:hover{
+    color: black;
 }
 
 .headerbar{
     width: 100%;
     height: 9.5vh;
-    background: #fe5f0a;
+    background: var(--maincolor);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -124,7 +168,7 @@ html{
 .content{
     width: 100%;
     height: 90vh;
-    background: #f1f3f6;
+    background: var(--contentbackgroundcolor);
     top: 0;
 }
 
@@ -142,6 +186,7 @@ html{
     width: 70%;
     height: 6vh;
     margin: 9% 0 0 0;
+    color: var(--aretitle);
 }
 
 .areatitle h1{
@@ -163,14 +208,15 @@ html{
     height: 70vh;
     overflow: scroll;
     overflow-x: hidden;
-    background: white;
+    background: var(--tableback);
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
     padding: 10px 0;
+    color: var(--tabletext);
 }
 
 .categoryitem .itemselected{
-    color: #fe5f0a;
+    color: var(--itemselected);
 }
 
 .category{
@@ -185,23 +231,24 @@ html{
 .categorycontainer ul li{
     list-style: none;
     margin: 0 0 0 5%;
+    transition:all 0.0s ease;
 }
     
 .categorycontainer ul li a{
     text-decoration: none;
-    transition: all 0.2s ease;
     font-weight: 500;
     text-decoration: none;
 }
     
 .categorycontainer ul li a:hover{
-    color: #fe5f0a;
+    color: var(--itemselected);
     text-decoration: none;
 }
     
 .categorycontainer ul li a{
     margin: 0 0 0 4%;
     color: rgb(51, 51, 51);
+    color: var(--tabletext);
 }
 
 .categoryinfo{
@@ -220,11 +267,11 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background:#fe5f0a;
+    background:var(--maincolor);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
     align-items: center;
     padding-left: 8px;
-    color: rgb(241, 241, 241);
+    color: var(--textcolor);
 }
 
 .countries{
@@ -245,6 +292,7 @@ html{
     border: none;
     overflow: scroll;
     overflow-x: hidden;
+    background: var(--tableback);
 }
 
 table{
@@ -252,6 +300,7 @@ table{
     border-collapse: collapse;
     text-indent: initial;
     border-spacing: 2px;
+    background: var(--tableback);
 } 
 
 tr{
@@ -261,9 +310,10 @@ tr{
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid var(--tablelines);
     text-align: left;
     padding: 8px;
+    color: var(--tabletext);
 }
 
 .fa-caret-down, .fa-caret-right{

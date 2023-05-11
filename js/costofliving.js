@@ -616,6 +616,16 @@ var coldb = [africadb,caribbeandb,centralamericadb,northernamerica,southamericad
         })
     })
 
+    // $(document).ready(function(){
+    //     $(".darkicon").click(function(){
+    //         $("body").toggleClass("dark-mode");
+    //         if($("body").hasClass("dark-mode")){
+    //             $(".darkicon").attr("class", "darkicon fa fa-light fa-sun fa-2x");
+    //         }else{
+    //             $(".darkicon").attr("class", "darkicon fa fa-light fa-moon fa-2x"); 
+    //         }
+    //   });
+    // });
 
     if(id == 0){
         var title = document.getElementById('prodtitle')

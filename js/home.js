@@ -24,3 +24,14 @@ $(document).ready(function(){
         window.location.href= 'https://worldwideprices.com/'
     })
 })
+
+$(document).ready(function(){
+    $(".darkicon1").click(function(){
+        $("body").toggleClass("dark-mode");
+    if($("body").hasClass("dark-mode")){
+        $(".darkicon1").attr("name", "sunny");
+    }else{
+        $(".darkicon1").attr("name", "moon"); 
+    }
+  });
+});

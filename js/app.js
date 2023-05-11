@@ -33,6 +33,25 @@ $(document).ready(function(){
     });
 })
 
+$(document).ready(function(){
+    $(".darkicon").click(function(){
+        $("body").toggleClass("dark-mode");
+        if($("body").hasClass("dark-mode")){
+            $(".darkicon").attr("class", "darkicon fa fa-light fa-sun fa-2x");
+        }else{
+            $(".darkicon").attr("class", "darkicon fa fa-light fa-moon fa-2x"); 
+        }
+  });
+  if(localStorage.getItem("theme", "dark-mode")){
+    $("body").attr("class", ".dark-mode")
+    console.log("tkivili")
+}
+if(localStorage.getItem("theme", "aqcxela")){
+    $("body").removeAttr("class", "dark-mode")
+    console.log("dgea")
+}
+});
+
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);
 });
