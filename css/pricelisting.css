@@ -58,6 +58,8 @@ html{
     --tableback: #fff;
     --tabletext: black;
     --itemselected: #fe5f0a;
+    --categulli: black;
+    
 }
 
 .dark-mode{
@@ -71,6 +73,7 @@ html{
     --tableback: #3b3b3b;
     --tabletext: #dddddd;
     --itemselected: #FFCA08;
+    --categulli: white;
 }
 
 .darkicon{
@@ -232,6 +235,7 @@ html{
     list-style: none;
     margin: 0 0 0 5%;
     transition:all 0.0s ease;
+    color: var(--categulli);
 }
     
 .categorycontainer ul li a{
@@ -1219,7 +1223,7 @@ td, th {
     }
     
     .areatitle h1{
-        font-size: 3.9vw;
+        font-size: 4.5vw;
         font-weight: 700;
         letter-spacing: 0.02cm;
     }
@@ -1254,7 +1258,8 @@ td, th {
     .categorycontainer ul li{
         list-style: none;
         margin: 0 0 0 5%;
-        font-size: 4.2vw;
+        font-size: 5vw;
+        color: var(--categulli);
     }
         
     .categorycontainer ul li a{
@@ -1262,6 +1267,7 @@ td, th {
         transition: all 0.2s ease;
         font-weight: 500;
         text-decoration: none;
+        font-size: 19px;
     }
         
     .categorycontainer ul li a:hover{
@@ -1298,8 +1304,8 @@ td, th {
     }
     
     .prodname{
-        width: 50%;
-        font-size: 3.8vw;
+        width: 40%;
+        font-size: 4vw;
     }
     
     .ranking{
@@ -1334,7 +1340,7 @@ td, th {
     }
 
     td{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .sidepanelbtn{
@@ -1373,11 +1379,11 @@ td, th {
     }
 
     .sidebtnpushed{
-        margin:0 0 0 30%;
+        margin:0 0 0 55%;
     }
     
     .sidePanel ul{
-        height: 17vh;
+        height: 20vh;
         list-style:none;
         display: flex;
         flex-direction: column;
@@ -1502,7 +1508,7 @@ td, th {
     .areatitle{
         width: 100%;
         height: 6vh;
-        margin: 35% 0 0 0;
+        margin: 24% 0 0 0;
     }
     
     .areatitle h1{
@@ -1513,7 +1519,7 @@ td, th {
     
     .listings{
         width: 100%;
-        height: 141vh;
+        height: 128vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -1540,7 +1546,9 @@ td, th {
     .categorycontainer ul li{
         list-style: none;
         margin: 0 0 0 5%;
-        font-size: 4.2vw;
+        font-size: 5vw;
+        padding-top: 1px;
+        color: var(--categulli);
     }
         
     .categorycontainer ul li a{
@@ -1548,6 +1556,7 @@ td, th {
         transition: all 0.2s ease;
         font-weight: 500;
         text-decoration: none;
+        font-size: 18px;
     }
         
     .categorycontainer ul li a:hover{
@@ -1582,17 +1591,17 @@ td, th {
     
     .countries{
         width: 30%;
-        font-size: 4vw;
+        font-size: 4.2vw;
     }
     
     .prodname{
-        width: 50%;
-        font-size: 3.8vw;
+        width: 45%;
+        font-size: 4.2vw;
     }
     
     .ranking{
         width: 20%;
-        font-size: 4vw;
+        font-size: 4.2vw;
     }
     
     .benchmarkbox{
@@ -1622,7 +1631,7 @@ td, th {
     }
 
     td{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .sidepanelbtn{
@@ -1660,19 +1669,19 @@ td, th {
     }
 
     .sidebtnpushed{
-        margin:0 0 0 27%;
+        margin:0 0 0 48%;
     }
     
     .sidePanel ul{
-        height: 17vh;
+        height: 19vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 30% 0 0 3%;
+        margin: 0 0 0 3%;
     }
     
     .sidePanel ul li a{
-        margin: 0 0 0 0%;
+        margin: 0 0 0 0;
         font-size: 4.1vw;
         transition: all 0.2s ease;
         font-weight: 500;
@@ -1740,6 +1749,14 @@ td, th {
 }
 
 @media screen and (max-width: 320px){
+
+    .categorycontainer ul li{
+        list-style: none;
+        margin: 0 0 0 5%;
+        font-size: 6vw;
+        padding-top: 1px;
+        color: var(--categulli);
+    }
     
     .sidepanelbtn{
         margin:0 0 0 45%;
@@ -1766,11 +1783,11 @@ td, th {
     }
 
     .sidebtnpushed{
-        margin:0 0 0 25%;
+        margin:0 0 0 45%;
     }
 
     .sidePanel ul{
-        height: 20vh;
+        height: 21vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -1803,21 +1820,21 @@ td, th {
     
     .countries{
         width: 28%;
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .prodname{
         width: 41%;
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .ranking{
         width: 20%;
-        font-size: 14px;
+        font-size: 15px;
     }
     
     td{
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .footer{

@@ -892,10 +892,17 @@ body{
 }
 
 @media screen and (max-width: 376px){
+
     .headerbar{
         position: fixed;
         top: 0;
         z-index: 9999;
+    }
+
+    .contacttxt{
+        width: 85%;
+        margin: 16% 0 0 0;
+        user-select: none;
     }
 
     .categorybox{
@@ -1043,7 +1050,6 @@ body{
     .copyright{
         color: white;
         font-size: 13px;
-        margin-top: 5%;
     }
 }
 

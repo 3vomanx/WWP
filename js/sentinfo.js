@@ -2436,7 +2436,7 @@ window.addEventListener("load", function(){
 
     if(id == 0){
         var title = document.getElementById('prodtitle')
-        title.innerText = 'Heineken beer prices, 330 ml. bottle'
+        title.innerText = 'Heineken beer prices, 330 ml.'
         var categoryname = document.getElementById('categorynametitle')
         categoryname.innerText = 'Beer prices by country, around the world, 2022'
         var categoryitem = document.getElementById('categoryitem0')

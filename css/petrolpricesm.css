@@ -58,6 +58,7 @@ html{
     --tableback: #fff;
     --tabletext: black;
     --itemselected: #fe5f0a;
+    --categulli: black;
 }
 
 .dark-mode{
@@ -71,6 +72,7 @@ html{
     --tableback: #3b3b3b;
     --tabletext: #dddddd;
     --itemselected: #FFCA08;
+    --categulli: white;
 }
 
 .darkicon{
@@ -230,7 +232,7 @@ html{
     list-style: none;
     margin: 0 0 0 5%;
     transition:all 0.0s ease;
-    color: var(--tabletext);
+    color: var(--categulli);
 }
     
 .categorycontainer ul li a{
@@ -1274,6 +1276,7 @@ td, th {
         list-style: none;
         margin: 0 0 0 5%;
         font-size: 4.2vw;
+        color: var(--categulli);
     }
         
     .categorycontainer ul li a{
@@ -1564,6 +1567,7 @@ td, th {
         list-style: none;
         margin: 0 0 0 5%;
         font-size: 4.2vw;
+        color: var(--categulli);
     }
         
     .categorycontainer ul li a{

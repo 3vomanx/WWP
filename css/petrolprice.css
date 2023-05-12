@@ -1361,6 +1361,18 @@ td, th {
         font-size: 14px;
     }
 
+    td:first-child{
+        width: 25%;
+    }
+    
+    td:nth-child(2){
+        width: 45%;
+    }
+    
+    td:nth-child(3){
+        width: 17%;
+    }
+
     .sidepanelbtn{
         margin:0 0 0 53%;
         transition: all 0.5s ease;
@@ -1569,6 +1581,7 @@ td, th {
         list-style: none;
         margin: 0 0 0 5%;
         font-size: 4.2vw;
+        color: var(-);
     }
         
     .categorycontainer ul li a{
