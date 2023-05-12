@@ -22,8 +22,7 @@ $(document).ready(function(){
             $("body").attr("class", "dark-mode")
             $(".darkicon").attr("class", "darkicon fa fa-light fa-sun fa-2x");
         }
-});
-
+    });
 })
 
 

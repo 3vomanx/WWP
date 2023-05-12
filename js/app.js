@@ -33,24 +33,26 @@ $(document).ready(function(){
     });
 })
 
+
 $(document).ready(function(){
     $(".darkicon").click(function(){
         $("body").toggleClass("dark-mode");
         if($("body").hasClass("dark-mode")){
+            localStorage.setItem("theme", "aqbnela")
             $(".darkicon").attr("class", "darkicon fa fa-light fa-sun fa-2x");
         }else{
+            localStorage.setItem("theme", "aqcxela");
             $(".darkicon").attr("class", "darkicon fa fa-light fa-moon fa-2x"); 
         }
   });
-  if(localStorage.getItem("theme", "dark-mode")){
-    $("body").attr("class", ".dark-mode")
-    console.log("tkivili")
-}
-if(localStorage.getItem("theme", "aqcxela")){
-    $("body").removeAttr("class", "dark-mode")
-    console.log("dgea")
-}
+        if(localStorage.getItem("theme")== "aqcxela"){
+            $("body").attr("class", "light")
+        }else{
+            $("body").attr("class", "dark-mode")
+            $(".darkicon").attr("class", "darkicon fa fa-light fa-sun fa-2x");
+        }
 });
+
 
 $(document).on('click', '.categoryitem', function(){
     localStorage.setItem("ClickedId", this.id);

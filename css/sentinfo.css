@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
+
+
 *{
-    transition: all 0.3s ease;
+    transition:all 0.3s ease;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -184,13 +186,13 @@ html{
     width: 70%;
     height: 6vh;
     margin: 9% 0 0 0;
+    color: var(--aretitle);
 }
 
 .areatitle h1{
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.02cm;
-    color: var(--aretitle);
 }
 
 .listings{
@@ -210,6 +212,7 @@ html{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
     padding: 10px 0;
+    color: var(--tabletext);
 }
 
 .categoryitem .itemselected{
@@ -228,24 +231,23 @@ html{
 .categorycontainer ul li{
     list-style: none;
     margin: 0 0 0 5%;
-    color: var(--tabletext);
     transition:all 0.0s ease;
 }
     
 .categorycontainer ul li a{
     text-decoration: none;
-    transition: all 0.2s ease;
     font-weight: 500;
     text-decoration: none;
 }
     
 .categorycontainer ul li a:hover{
-    color:var(--itemselected);
+    color: var(--itemselected);
     text-decoration: none;
 }
     
 .categorycontainer ul li a{
     margin: 0 0 0 4%;
+    color: rgb(51, 51, 51);
     color: var(--tabletext);
 }
 
@@ -269,7 +271,7 @@ html{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
     align-items: center;
     padding-left: 8px;
-    color: rgb(241, 241, 241);
+    color: var(--textcolor);
 }
 
 .countries{
@@ -307,18 +309,6 @@ tr{
     border-color: inherit;
 }
 
-td:first-child{
-    width: 25%;
-}
-
-td:nth-child(2){
-    width: 45%;
-}
-
-td:nth-child(3){
-    width: 17%;
-}
-
 td, th {
     border: 1px solid var(--tablelines);
     text-align: left;
@@ -340,6 +330,7 @@ td, th {
     align-items: center;
     bottom: 0;
     box-shadow: 5px 5px 20px black;
+    position: relative;
 }
 
 .footercontent{
@@ -375,7 +366,6 @@ td, th {
 
 .copyright{
     color: white;
-    margin-top: 0.5%;
 }
 
 @media screen and (max-width: 1600px){
@@ -389,7 +379,6 @@ td, th {
     .logospace img{
         width: 30%;
         height: auto;
-        cursor: pointer;
     }
     
     .menul{
@@ -413,7 +402,6 @@ td, th {
     }
     
     td, th {
-        border: 1px solid #dddddd;
         text-align: left;
         padding: 7.4px;
     }
@@ -421,7 +409,6 @@ td, th {
     .content{
         width: 100%;
         height: 92vh;
-        background: #f1f3f6;
         top: 0;
     }
 
@@ -459,7 +446,7 @@ td, th {
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 16px;
+        font-size: 17px;
     }
     
     .footermenu ul li a{
@@ -472,11 +459,9 @@ td, th {
         text-decoration: none;
         color: var(--headeryellow);
     }
-
+    
     .copyright{
         color: white;
-        font-size: 14px;
-        margin-top: 1%;
     }
 
 }
@@ -528,7 +513,6 @@ td, th {
         width: 28%;
         height: 70vh;
         overflow: scroll;
-        background: white;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
@@ -584,8 +568,6 @@ td, th {
     
     .copyright{
         color: white;
-        margin-top: 0.5%;
-        font-size: 16px;
     }
 
 }
@@ -638,11 +620,10 @@ td, th {
         width: 30%;
         height: 70vh;
         overflow: scroll;
-        background: white;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
-        overflow-x:hidden ;
+        overflow-x:hidden;
     }
 
     .listings{
@@ -694,7 +675,6 @@ td, th {
     
     .copyright{
         color: white;
-        margin-top: 0.5%;
     }
 
 }
@@ -746,7 +726,6 @@ td, th {
     .content{
         width: 100%;
         height: 100vh;
-        background: #f1f3f6;
         top: 0;
     }
 
@@ -806,7 +785,6 @@ td, th {
     
     .copyright{
         color: white;
-        margin-top: 1.5%;
     }
 
 }
@@ -817,9 +795,9 @@ td, th {
         position: fixed;
         top: 0;
     }
-    
-    .selected{
-        color: var(--headeryellow)
+
+    .darkicon{
+        margin-left: 130%;
     }
 
     .categorybox{
@@ -847,6 +825,10 @@ td, th {
     .logospace img{
         width: 70%;
         height: auto;
+    }
+
+    .selected{
+        color: var(--headeryellow)
     }
 
     .menul{
@@ -883,11 +865,10 @@ td, th {
     .categorycontainer ul li a{
         font-size: 15px;
         margin: 0 0 0 4%;
-        color: rgb(51, 51, 51);
     }
 
     .sidepanelbtn{
-        margin:0 0 0 70%;
+        margin:0 0 0 65%;
         transition: all 0.5s ease;
     }
     
@@ -904,7 +885,7 @@ td, th {
     .sidePanel{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
+        background: (--maincolor);
         transform: translate(340%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
@@ -915,7 +896,7 @@ td, th {
     .sidepushed{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
+        background: var(--maincolor);
         z-index: 1;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -1006,7 +987,6 @@ td, th {
     
     .copyright{
         color: white;
-        margin-top: 1.9%;
     }
 
 }
@@ -1046,15 +1026,9 @@ td, th {
     }
 
     .menul{
+        width: 65%;
+        margin: 0 0 0 13%;
         display: none;
-    }
-
-    .menul ul li{
-        text-decoration: none;
-        color: #fff;
-        transition: all 0.2s ease;
-        font-size: 1.9vw;
-        font-weight: 700;
     }
 
     .contentarea{
@@ -1077,7 +1051,6 @@ td, th {
     .categorycontainer ul li a{
         font-size: 15px;
         margin: 0 0 0 4%;
-        color: rgb(51, 51, 51);
     }
 
     .categorytitle{
@@ -1086,7 +1059,7 @@ td, th {
     }
 
     .sidepanelbtn{
-        margin:0 0 0 70%;
+        margin:0 0 0 60%;
         transition: all 0.5s ease;
     }
     
@@ -1103,7 +1076,6 @@ td, th {
     .sidePanel{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.5s;
@@ -1114,7 +1086,6 @@ td, th {
     .sidepushed{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -1197,6 +1168,10 @@ td, th {
         z-index: 9999;
     }
 
+    .darkicon{
+        margin-left: 160%;
+    }
+
     .logospace{
         width: 18%;
         margin: 0 0 0 10%;
@@ -1224,7 +1199,6 @@ td, th {
     .content{
         width: 100%;
         height: 155vh;
-        background: #f1f3f6;
         top: 0;
     }
 
@@ -1263,15 +1237,10 @@ td, th {
         width:93%;
         height: 55vh;
         overflow: scroll;
-        background: white;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
         overflow-x: hidden;
-    }
-    
-    .categoryitem .itemselected{
-        color: #fe5f0a;
     }
     
     .category{
@@ -1296,19 +1265,16 @@ td, th {
     }
         
     .categorycontainer ul li a:hover{
-        color: #fe5f0a;
         text-decoration: none;
     }
         
     .categorycontainer ul li a{
         margin: 0 0 0 4%;
-        color: rgb(51, 51, 51);
     }
     
     .categoryinfo{
         width: 93%;
         height: 70vh;
-        background: white;
         box-shadow: rgba(0, 0, 0, 0.30) 0px 5px 21px;
         border-radius: 15px;
     }
@@ -1321,11 +1287,9 @@ td, th {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background:#fe5f0a;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
         align-items: center;
         padding-left: 8px;
-        color: rgb(241, 241, 241);
     }
     
     .countries{
@@ -1365,7 +1329,6 @@ td, th {
     }
     
     td, th {
-        border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
     }
@@ -1375,7 +1338,7 @@ td, th {
     }
 
     .sidepanelbtn{
-        margin:0 0 0 63%;
+        margin:0 0 0 55%;
         transition: all 0.5s ease;
     }
     
@@ -1392,7 +1355,6 @@ td, th {
     .sidePanel{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -1403,7 +1365,6 @@ td, th {
     .sidepushed{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(125%, 0%);
         transition: 0.5s;
@@ -1502,6 +1463,10 @@ td, th {
         z-index: 9999;
     }
 
+    .darkicon{
+        margin-left: 180%;
+    }
+
     .logospace{
         margin: 0 0 0 13.5%;
     }
@@ -1521,8 +1486,7 @@ td, th {
 
     .content{
         width: 100%;
-        height: 170vh;
-        background: #f1f3f6;
+        height: 155vh;
         top: 0;
     }
 
@@ -1533,13 +1497,12 @@ td, th {
         display: flex;
         flex-direction: column;
         gap: 3%;
-        /* background: red; */
     }
     
     .areatitle{
         width: 100%;
         height: 6vh;
-        margin: 40% 0 0 0;
+        margin: 35% 0 0 0;
     }
     
     .areatitle h1{
@@ -1553,25 +1516,19 @@ td, th {
         height: 141vh;
         display: flex;
         flex-direction: column;
-        /* gap: 2%; */
         justify-content: space-between;
     }
     
     .categorycontainer{
         width:93%;
-        height: 70vh;
+        height: 55vh;
         overflow: scroll;
-        background: white;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
         overflow-x: hidden;
     }
-    
-    .categoryitem .itemselected{
-        color: #fe5f0a;
-    }
-    
+
     .category{
         padding: 4px;
     }
@@ -1594,13 +1551,11 @@ td, th {
     }
         
     .categorycontainer ul li a:hover{
-        color: #fe5f0a;
         text-decoration: none;
     }
         
     .categorycontainer ul li a{
         margin: 0 0 0 4%;
-        color: rgb(51, 51, 51);
     }
     
     .categoryinfo{
@@ -1619,7 +1574,6 @@ td, th {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background:#fe5f0a;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 40px;
         align-items: center;
         padding-left: 8px;
@@ -1663,13 +1617,16 @@ td, th {
     }
     
     td, th {
-        border: 1px solid #dddddd;
         text-align: left;
         padding: 8px;
     }
 
+    td{
+        font-size: 14px;
+    }
+
     .sidepanelbtn{
-        margin:0 0 0 60%;
+        margin:0 0 0 48%;
         transition: all 0.6s ease;
     }
 
@@ -1684,42 +1641,39 @@ td, th {
     }
     
     .sidePanel{
-        width: 40%;
+        width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
-        margin: -2.6% 0 0 0;
+        margin: 0 0 0 0;
         bottom: 0;
-
     }
 
     .sidepushed{
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
-        transform: translate(150%, 0%);
+        transform: translate(125%, 0%);
         transition: 0.5s;
-        margin: -2.6% 0 0 0;
+        margin: 0 0 0 0;
         position: fixed;
     }
 
     .sidebtnpushed{
-        margin:0 0 0 33%;
+        margin:0 0 0 27%;
     }
     
     .sidePanel ul{
-        height: 20vh;
+        height: 17vh;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 30% 0 0 5%;
+        margin: 30% 0 0 3%;
     }
     
     .sidePanel ul li a{
         margin: 0 0 0 0%;
-        font-size: 3.7vw;
+        font-size: 4.1vw;
         transition: all 0.2s ease;
         font-weight: 500;
     }
@@ -1740,17 +1694,16 @@ td, th {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         bottom: 0;
         box-shadow: 5px 5px 20px black;
         position: relative;
-        z-index: 9999;
-
     }
     
     .footercontent{
-        width: 70%;
+        width: 80%;
         height: 5vh;
-        margin: 0.4% 0 0 0;
+        margin: 0 0 0 0;
     }
     
     .footermenu{
@@ -1765,8 +1718,8 @@ td, th {
         list-style: none;
         justify-content: space-between;
         flex-wrap: wrap;
-        font-size: 14.4px;
-        margin-top: 6%
+        font-size: 16px;
+        margin-top: 3%
     }
     
     .footermenu ul li a{
@@ -1783,21 +1736,19 @@ td, th {
     .copyright{
         color: white;
         font-size: 13px;
-        margin-top: 5%;
     }
 }
 
 @media screen and (max-width: 320px){
     
     .sidepanelbtn{
-        margin:0 0 0 57%;
+        margin:0 0 0 45%;
         transition: all 0.6s ease;
     }
 
     .sidePanel{
         width: 50%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
@@ -1807,7 +1758,6 @@ td, th {
 
     .sidepushed{
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(105%, 0%);
         transition: 0.5s;
@@ -1826,7 +1776,7 @@ td, th {
         justify-content: space-evenly;
         margin: 27% 0 0 3%;
     }
-    
+
     .sidePanel ul li a{
         font-size: 4.5vw;
     }
@@ -1845,7 +1795,6 @@ td, th {
         width:93%;
         height: 52vh;
         overflow: scroll;
-        background: white;
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
@@ -1922,6 +1871,7 @@ td, th {
         font-size: 13px;
     }
 }
+
 
 @media screen and (min-width: 769px){
     .sidePanel{

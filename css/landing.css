@@ -760,6 +760,10 @@ body{
         z-index: 9999;
     }
 
+    .darkmodeicon{
+        margin-left: 8%;
+    }
+
     .selected{
         color: var(--headeryellow)
     }
@@ -824,7 +828,7 @@ body{
     }
 
     .sidepanelbtn{
-        margin:0 0 0 70%;
+        margin:0 0 0 57%;
         transition: all 0.5s ease;
     }
     
@@ -841,7 +845,7 @@ body{
     .sidePanel{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
+        background: var(--maincolor);
         transform: translate(340%, 0%);
         transition: 0.5s;
         margin: -2.6% 0 0 0;
@@ -852,7 +856,6 @@ body{
     .sidepushed{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -861,7 +864,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 50%;
+        margin:0 0 0 35%;
     }
     
     .sidePanel ul{
@@ -979,8 +982,12 @@ body{
     }
 
     .sidepanelbtn{
-        margin:0 0 0 70%;
+        margin:0 0 0 55%;
         transition: all 0.5s ease;
+    }
+
+    .darkmodeicon{
+        margin-left: 8%;
     }
     
     .sidepanelbtn .main{
@@ -996,7 +1003,6 @@ body{
     .sidePanel{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.5s;
@@ -1007,7 +1013,6 @@ body{
     .sidepushed{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -1016,7 +1021,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 50%;
+        margin:0 0 0 34%;
     }
     
     .sidePanel ul{
@@ -1127,8 +1132,12 @@ body{
         position: absolute;
     }
 
+    .darkmodeicon{
+        margin-left: 14%;
+    }
+
     .sidepanelbtn{
-        margin:0 0 0 63%;
+        margin:0 0 0 40%;
         transition: all 0.5s ease;
     }
     
@@ -1145,7 +1154,6 @@ body{
     .sidePanel{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -1156,7 +1164,6 @@ body{
     .sidepushed{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(125%, 0%);
         transition: 0.5s;
@@ -1165,7 +1172,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 30%;
+        margin:0 0 0 40%;
     }
     
     .sidePanel ul{
@@ -1298,8 +1305,12 @@ body{
         font-size: 22px;
     }
 
+    .darkmodeicon{
+        margin-left: 17%;
+    }
+
     .sidepanelbtn{
-        margin:0 0 0 60%;
+        margin:0 0 0 33%;
         transition: all 0.6s ease;
     }
 
@@ -1316,7 +1327,6 @@ body{
     .sidePanel{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
@@ -1326,7 +1336,6 @@ body{
 
     .sidepushed{
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(125%, 0%);
         transition: 0.5s;
@@ -1335,7 +1344,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 31%;
+        margin:0 0 0 33%;
     }
     
     .sidePanel ul{
@@ -1463,8 +1472,12 @@ body{
         font-size: 6.5vw;
     }
 
+    .darkmodeicon{
+        margin-left: 17%;
+    }
+
     .sidepanelbtn{
-        margin:0 0 0 60%;
+        margin:0 0 0 27%;
         transition: all 0.6s ease;
     }
 
@@ -1481,7 +1494,6 @@ body{
     .sidePanel{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
@@ -1491,7 +1503,6 @@ body{
 
     .sidepushed{
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(125%, 0%);
         transition: 0.5s;
@@ -1500,7 +1511,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 31%;
+        margin:0 0 0 27%;
     }
     
     .sidePanel ul{

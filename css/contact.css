@@ -3,35 +3,100 @@
 
 
 *{
+    transition: all 0.3s ease;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-*::-webkit-scrollbar{
-    display: none;
-}
-
 html{
     scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar{
+    display: none;
+}   
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--maincolor); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbarhover); 
+  }
 
 body{
     background: #f1f3f6;
 }
 
 :root {
+    --scrollbarhover: #ff7930;
+    --maincolor: #fe5f0a;
     --headeryellow: #FFCA08;
     --headermenu: #221F21;
     --black: #000000;
-    --maincolor: #fe5f0a;
+    --white: #fff;
+    --contentbackgroundcolor: #f1f3f6;
+    --areatitle: black;
+    --textcolor: black;
+    --tablelines: #dddddd;
+    --tableback: #fff;
+    --tabletext: black;
+    --itemselected: #fe5f0a;
+    --categorytitle: white;
+}
+
+.dark-mode{
+    --scrollbarhover:#FFCA08;
+    --maincolor: #585858;
+    --headeryellow: #FFCA08;
+    --textcolor: #D6D6D7;
+    --contentbackgroundcolor: #35363A;
+    --aretitle: #dddddd;
+    --tablelines: #646464;
+    --tableback: #3b3b3b;
+    --tabletext: #dddddd;
+    --itemselected: #FFCA08;
+    --categorytitle: #dddddd;
+    .darkicon1{
+        color: white;
+    }
+
+    .darkicon1:hover{
+        color: var(--headeryellow);
+    }
+}
+
+.darkicon1{
+    cursor: pointer;
+    font-size: 35px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.darkicon1:hover{
+    color: black;
 }
 
 .headerbar{
     width: 100%;
     height: 9.5vh;
-    background: #fe5f0a;
+    background: var(--maincolor);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -107,6 +172,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--contentbackgroundcolor);
 }
 
 .footermenu ul .selected{
@@ -121,10 +187,12 @@ body{
 .contacttxt h1{
     width: 100%;
     font-size: 35px;
+    color: var(--aretitle);
 }
 
 .contacttxt span{
     font-size: 19px;
+    color: var(--tabletext);
 }
 
 .copyright{
@@ -183,7 +251,6 @@ body{
 @media screen and (max-width: 1600px){
 
     .headerbar{
-        position: absolute;
         top: 0;
         position: fixed;
         z-index: 9999;
@@ -508,8 +575,12 @@ body{
         font-size: 19px;
     }
 
+    .darkicon1{
+        margin-left: 130%;
+    }
+
     .sidepanelbtn{
-        margin:0 0 0 70%;
+        margin:0 0 0 65%;
         transition: all 0.5s ease;
     }
     
@@ -526,7 +597,7 @@ body{
     .sidePanel{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
+        background: var(--maincolor);
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.5s;
@@ -537,7 +608,6 @@ body{
     .sidepushed{
         width: 30%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -546,7 +616,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 50%;
+        margin:0 0 0 43%;
     }
     
     .sidePanel ul{
@@ -634,7 +704,6 @@ body{
     }
 
     .content{
-        margin: 10% 0 0 0 ;
     }
 
     .logospace{
@@ -710,15 +779,18 @@ body{
         cursor: pointer;
     }
 
+    .darkicon1{
+        margin-left: 160%;
+    }
+
     .sidepanelbtn{
-        margin:0 0 0 63%;
+        margin:0 0 0 53%;
         transition: all 0.5s ease;
     }
     
     .sidePanel{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(235%, 0%);
         transition: 0.5s;
@@ -729,7 +801,6 @@ body{
     .sidepushed{
         width: 45%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(125%, 0%);
         transition: 0.5s;
@@ -738,7 +809,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 30%;
+        margin:0 0 0 53%;
     }
     
     .sidePanel ul{
@@ -862,7 +933,7 @@ body{
     }
 
     .sidepanelbtn{
-        margin:0 0 0 60%;
+        margin:0 0 0 50%;
         transition: all 0.6s ease;
     }
 
@@ -879,7 +950,6 @@ body{
     .sidePanel{
         width: 40%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
@@ -889,7 +959,6 @@ body{
 
     .sidepushed{
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(150%, 0%);
         transition: 0.5s;
@@ -898,7 +967,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 33%;
+        margin:0 0 0 50%;
     }
     
     .sidePanel ul{
@@ -1000,14 +1069,13 @@ body{
     }
 
     .sidepanelbtn{
-        margin:0 0 0 57%;
+        margin:0 0 0 47%;
         transition: all 0.6s ease;
     }
 
     .sidePanel{
         width: 50%;
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(340%, 0%);
         transition: 0.8s;
@@ -1017,7 +1085,6 @@ body{
 
     .sidepushed{
         height: 100vh;
-        background: #ec5402;
         z-index: 1000;
         transform: translate(105%, 0%);
         transition: 0.5s;
@@ -1026,7 +1093,7 @@ body{
     }
 
     .sidebtnpushed{
-        margin:0 0 0 25%;
+        margin:0 0 0 47%;
     }
 
     .sidePanel ul{
