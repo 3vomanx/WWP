@@ -314,6 +314,18 @@ td, th {
     color: var(--tabletext);
 }
 
+td:first-child{
+    width: 25%;
+}
+
+td:nth-child(2){
+    width: 45%;
+}
+
+td:nth-child(3){
+    width: 17%;
+}
+
 .fa-caret-down, .fa-caret-right{
     cursor: pointer;
     padding: 0 3px;

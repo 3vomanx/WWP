@@ -235,7 +235,7 @@ html{
     list-style: none;
     margin: 0 0 0 5%;
     transition:all 0.0s ease;
-    color: white;
+    color: var(--categulli);
 }
     
 .categorycontainer ul li a{
@@ -318,6 +318,18 @@ td, th {
     text-align: left;
     padding: 8px;
     color: var(--tabletext);
+}
+
+td:first-child{
+    width: 25%;
+}
+
+td:nth-child(2){
+    width: 45%;
+}
+
+td:nth-child(3){
+    width: 17%;
 }
 
 .fa-caret-down, .fa-caret-right{
