@@ -293,6 +293,8 @@ html{
     border: none;
     overflow: scroll;
     overflow-x: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 table{
@@ -1628,6 +1630,8 @@ td, th {
         border: none;
         overflow: scroll;
         overflow-x: hidden;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
     
     table{
