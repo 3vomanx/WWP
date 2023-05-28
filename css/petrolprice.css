@@ -20,6 +20,7 @@ body::-webkit-scrollbar{
 ::-webkit-scrollbar {
     background: var(--tableback);
     width: 10px;
+    border-bottom-right-radius: 15px;
   }
   
   /* Track */
@@ -291,6 +292,9 @@ html{
     border: none;
     overflow: scroll;
     overflow-x: hidden;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 }
 
 table{
@@ -1348,6 +1352,7 @@ td:nth-child(3){
         height: 64vh;
         border: none;
         overflow: scroll;
+        border-bottom-right-radius: 15px;
         overflow-x: hidden;
     }
     
