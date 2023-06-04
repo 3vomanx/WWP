@@ -82,7 +82,7 @@ window.addEventListener("load", function(){
     var row = document.createElement("tr")
     perrow = 3;
 
-    for(var g = 0; g < iphone14128gbdb.length; g++) {
+    for(var g = -1; g < iphone14128gbdb.length; g++) {
       var cell = row.insertCell();
       cell.innerHTML = iphone14128gbdb[g];
     

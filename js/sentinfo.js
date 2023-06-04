@@ -2432,7 +2432,7 @@ window.addEventListener("load", function(){
             window.location.href= 'https://worldwideprices.com/'
         })
     })
-}
+};
 
     if(id == 0){
         var title = document.getElementById('prodtitle')
