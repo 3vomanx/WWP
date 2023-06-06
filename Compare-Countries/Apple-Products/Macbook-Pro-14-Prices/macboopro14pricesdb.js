@@ -104,9 +104,3 @@ window.addEventListener("load", function(){
     })
   }
 })
-
-
-
-
-
-

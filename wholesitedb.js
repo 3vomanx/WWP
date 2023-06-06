@@ -63,6 +63,9 @@ window.addEventListener("load", function(){
     '<ul class="category">'+
         '<li class="categorytitle appro"><i class="fa fa-regular fa-caret-down appleproducts" style="font-size: 25px;">'+
         '</i>Apple Products</li>'+
+            '<li class="categoryitem appleprod" id="34">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone13-138GB-Prices/" target="_parent" id="categoryitem16">IPhone 13, 128GB</a>'+
+            '</li>'+
             '<li class="categoryitem appleprod" id="16">'+
                 '<a href="/Compare-Countries/Apple-Products/Iphone14-Prices/" target="_parent" id="categoryitem16">IPhone 14, 128GB</a>'+
             '</li>'+

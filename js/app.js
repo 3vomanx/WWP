@@ -64,8 +64,17 @@ window.addEventListener("load", function(){
     '<ul class="category">'+
         '<li class="categorytitle appro"><i class="fa fa-regular fa-caret-down appleproducts" style="font-size: 25px;">'+
         '</i>Apple Products</li>'+
+            '<li class="categoryitem appleprod" id="36">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone-SE-2020-Prices/" target="_parent" id="categoryitem36">IPhone SE 2020</a>'+
+            '</li>'+
+            '<li class="categoryitem appleprod" id="34">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone13-128GB-Prices/" target="_parent" id="categoryitem34">IPhone 13, 128GB</a>'+
+            '</li>'+
             '<li class="categoryitem appleprod" id="16">'+
                 '<a href="/Compare-Countries/Apple-Products/Iphone14-Prices/" target="_parent" id="categoryitem16">IPhone 14, 128GB</a>'+
+            '</li>'+
+            '<li class="categoryitem appleprod" id="35">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone14-Pro-Prices/" target="_parent" id="categoryitem35">IPhone 14 Pro, 256GB</a>'+
             '</li>'+
             '<li class="categoryitem appleprod" id="33">'+
                 '<a href="/Compare-Countries/Apple-Products/Iphone14-Pro-Max-512GB-Prices/" target="_parent" id="categoryitem33">IPhone 14 Pro Max, 512GB</a>'+
