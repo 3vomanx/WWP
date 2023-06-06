@@ -41,30 +41,30 @@ var iphone14promax512gbdb = [
 
 window.addEventListener("load", function(){
 
-    var table = document.getElementById("tablebody");
-    var row = document.createElement("tr")
-    perrow = 3;
+  var table = document.getElementById("tablebody");
+  var row = document.createElement("tr")
+  perrow = 3;
 
-    for(var g = -1; g < iphone14promax512gbdb.length; g++) {
-      var cell = row.insertCell();
-      cell.innerHTML = iphone14promax512gbdb[g];
-    
-      var next = g + 1;
-      if (next%perrow==0 && next!=iphone14promax512gbdb.length) {
-        row = table.insertRow();
+  for(var g = -1; g < iphone14promax512gbdb.length; g++) {
+    var cell = row.insertCell();
+    cell.innerHTML = iphone14promax512gbdb[g];
+  
+    var next = g + 1;
+    if (next%perrow==0 && next!=iphone14promax512gbdb.length) {
+      row = table.insertRow();
 
-        var title = document.getElementById('prodtitle')
-        title.innerText = 'iPhone 14 Pro Max, 512GB prices'
-        var categoryname = document.getElementById('categorynametitle')
-        categoryname.innerText = 'iPhone 14 Pro Max prices by country, around the world, 2023'
-        var categoryitem = document.getElementById('categoryitem33')
-        categoryitem.classList.add("itemselected")
-    }
-
-    $(document).ready(function(){
-        $(".headerbar img").click(function(){
-            window.location.href= 'https://worldwideprices.com/'
-        })
-    })
+      var title = document.getElementById('prodtitle')
+      title.innerText = 'iPhone 14 Pro Max , 512GB prices'
+      var categoryname = document.getElementById('categorynametitle')
+      categoryname.innerText = 'iPhone 14 Pro Max prices by country, around the world, 2023'
+      var categoryitem = document.getElementById('categoryitem33')
+      categoryitem.classList.add("itemselected")
   }
+
+  $(document).ready(function(){
+      $(".headerbar img").click(function(){
+          window.location.href= 'https://worldwideprices.com/'
+      })
+  })
+}
 })
