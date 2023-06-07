@@ -325,6 +325,10 @@ body{
         position: relative;
     }
 
+    .categorytext{
+        height: 32vh;
+    }
+
     .footer{
         width: 100%;
         height: 10vh;
@@ -393,17 +397,6 @@ body{
 
     .categorytext{
         height: 30vh;
-        position: absolute;
-        background: rgb(0, 0, 0, 0.3);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        overflow: hidden;
-        z-index: 1000;
-        font-size: 25px;
-        font-weight: 500;
-        border-radius: 15px;
     }
 
     .logospace{

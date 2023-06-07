@@ -68,9 +68,3 @@ window.addEventListener("load", function(){
     })
   }
 })
-
-
-
-
-
-

@@ -79,6 +79,18 @@ window.addEventListener("load", function(){
             '<li class="categoryitem appleprod" id="33">'+
                 '<a href="/Compare-Countries/Apple-Products/Iphone14-Pro-Max-512GB-Prices/" target="_parent" id="categoryitem33">IPhone 14 Pro Max, 512GB</a>'+
             '</li>'+
+            '<li class="categoryitem appleprod" id="37">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone15-Prices/" target="_parent" id="categoryitem37">IPhone 15 Prices</a>'+
+            '</li>'+
+            '<li class="categoryitem appleprod" id="38">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone15-Plus-Prices/" target="_parent" id="categoryitem38">IPhone 15 Plus Prices</a>'+
+            '</li>'+
+            '<li class="categoryitem appleprod" id="39">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone15-Pro-Prices/" target="_parent" id="categoryitem39">IPhone 15 Pro Prices</a>'+
+            '</li>'+
+            '<li class="categoryitem appleprod" id="40">'+
+                '<a href="/Compare-Countries/Apple-Products/Iphone15-Ultra-Prices/" target="_parent" id="categoryitem40">IPhone 15 Ultra Prices</a>'+
+            '</li>'+
             '<li class="categoryitem appleprod" id="17">'+
                 '<a href="/Compare-Countries/Apple-Products/Ipad-pro-11-Prices/" target="_parent" id="categoryitem17">Ipad Pro 11, 128GB</a>'+
             '</li>'+
