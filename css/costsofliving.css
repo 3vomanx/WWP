@@ -294,6 +294,7 @@ html{
     overflow: scroll;
     overflow-x: hidden;
     background: var(--tableback);
+    border-bottom-left-radius: 15px;
 }
 
 table{
@@ -541,7 +542,6 @@ td, th {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
     .listings{
@@ -599,8 +599,19 @@ td, th {
 
 @media screen and (max-width: 1280px){
 
+    .headerbar{
+        width: 100%;
+        height: 11.5vh;
+        background: var(--maincolor);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 5px 2px 35px black;
+        position: fixed;
+    }
+
     .logospace{
-        width: 15%;
+        width: 13%;
         background: 8vh;
         margin: 0 0 0 2%;
     }
@@ -636,6 +647,10 @@ td, th {
         margin: 12% 0 0 0;
     }
 
+    .content{
+        height: 100vh;
+    }
+
     .contentarea{
         width: 80%;
         margin: 0 0 0 5%;
@@ -649,7 +664,6 @@ td, th {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 21px;
         padding: 10px 0;
         overflow-x:hidden;
-        overflow-y: hidden;
     }
 
     .listings{
@@ -701,7 +715,6 @@ td, th {
     
     .copyright{
         color: white;
-        margin-top: 0.5%;
     }
 
 

@@ -600,8 +600,19 @@ td:nth-child(3){
 
 @media screen and (max-width: 1280px){
 
+    .headerbar{
+        width: 100%;
+        height: 11.5vh;
+        background: var(--maincolor);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        box-shadow: 5px 2px 35px black;
+        position: fixed;
+    }
+
     .logospace{
-        width: 15%;
+        width: 13%;
         background: 8vh;
         margin: 0 0 0 2%;
     }
@@ -635,6 +646,10 @@ td:nth-child(3){
         width: 70%;
         height: 7vh;
         margin: 12% 0 0 0;
+    }
+
+    .content{
+        height: 100vh;
     }
 
     .contentarea{
@@ -702,7 +717,6 @@ td:nth-child(3){
     
     .copyright{
         color: white;
-        margin-top: 1%;
     }
 }
 

@@ -347,6 +347,8 @@ body{
         top: 0;
         position: fixed;
         z-index: 9999;
+        height: 11.5vh;
+
     }
 
     .logospace{
